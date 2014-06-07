@@ -6,20 +6,20 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            The OpenQuake Engine Blog
+tagline:          
+url:              http://
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Michele Simionato
+  url:            https://github.com/micheles
+  email:          michele.simionato@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/micheles/micheles.github.io
 pages_list:       
   About: '/about'
   Archive: '/archive'
