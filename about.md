@@ -3,7 +3,8 @@ layout: page
 title: The OpenQuake Engine
 ---
 
-The OpenQuake Engine is a set of libraries, a software framework and a
+The [OpenQuake Engine](http://www.globalquakemodel.org/openquake/about/engine/)
+is a set of libraries, a software framework and a
 command line tool to compute seismic hazard and seismic risk on a global scale.
 
 It is the main product of the GEM Foundation and was developed 
@@ -16,8 +17,8 @@ ideas on its development and its future. My ideas are my own, and they
 do not necessarily reflect the official view of GEM, unless I
 explicitly say so. The development of the engine and of all GEM
 products is a mediation between the *desiderata* of the GEM scientific
-staff and the needs of the users, by taking into account
-the directives of the governing board and the suggestions of the sponsors
+staff and the needs of our users, by taking into account
+the directives of the Governing Board and the suggestions of the sponsors
 of the foundation. I can just assess the technical feasibility of
 projects and the estimated effort to implement them.
 

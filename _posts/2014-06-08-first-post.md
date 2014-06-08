@@ -16,7 +16,7 @@ technicalities and unpopular programming languages.
 
 This is my first post; at the moment I am just trying to master the
 blogging system of GitHub Pages, by following the recommendations
-I found [here](http://joshualande.com/jekyll-github-pages-poole/)
+I found [here](http://joshualande.com/jekyll-github-pages-poole/).
 It is a system that makes a lot of sense to me, one that I wanted
 since the first time I started to use a revision control system,
 more than ten years ago. I have been using a hand-crafted version
