@@ -22,5 +22,6 @@ github:
   repo:           https://github.com/micheles/micheles.github.io
 pages_list:       
   About: '/about'
+  Author: '/author'
   Archive: '/archive'
   Feed: '/atom.xml'

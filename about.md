@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About
+title: The OpenQuake Engine
 ---
 
 The OpenQuake Engine is a set of libraries, a software framework and a
-command line tool to compute seismic hazard and seismic risk of
-earthquakes on a global scale.
+command line tool to compute seismic hazard and seismic risk on a global scale.
 
 It is the main product of the GEM Foundation and was developed 
 as an Open Source project with several contributors, starting from 2010.
@@ -34,13 +33,13 @@ be moved to the official docs later on. Other posts will serve to
 provide the background and explanations for certain technical
 decisions.
 
-The requests of the users are tracked in our public [bug tracker]
+The requests of the users are tracked in our [public bug tracker]
 (https://bugs.launchpad.net/oq-engine/+bugs?orderby=status); notice
 that, despite the name, 90% of the "bugs" listed there are not actually bugs
 but just requests for new features and improvements.
 
 If you are a skilled developer, you can follow the development on the
-[GitHub repositories](https://github.com/gem/oq-engine), since it is
+[GitHub repositories](https://github.com/gem/), since it is
 entirely public, and not a single code line enters in the engine
 without a public code review. This blog is for all the people who care
 about the development of the engine but do not have the time or the
