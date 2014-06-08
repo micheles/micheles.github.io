@@ -57,8 +57,8 @@ and so it is tolerable to keep the status quo. But I personally would
 like to kill `nrmllib` and move its important functionalities in the
 other repositories, by throwing away 80% of its contents. Especially
 bad is the dependency from `python-lxml` which has been extremely
-brittle and has given us *a lot of* maintenance issues: it seesm that
-each new version `python-lxml` breaks `nrmllib`.
+brittle and has given us *a lot* of maintenance issues: it seems that
+each new version of `python-lxml` breaks `nrmllib`.
 
 [oq-risklib](https://github.com/gem/oq-risklib) is a relatively recent
 repository (it was started less than two years ago) but the
@@ -99,19 +99,20 @@ a lesser extend `commonlib`, had each one major contributor, although
 a different one for each library, and so they exhbit some internal
 consistency, even if there is no strong inter-library consistency. The
 engine, on the contrary, never had a major contributor or architect:
-historically the CTO changed quite ofter at the beginning of the
+historically the CTO changed quite often at the beginning of the
 development, so that the architecture of the engine has been
 schizophrenic at best. It started as the brainchild of [noSQL]
 (http://en.wikipedia.org/wiki/NoSQL)
 enthusiasts, with Redis as its unique database; then it went into the
 hands of PostgreSQL lovers, so that everything (even too much) went into
-the database; however the previous design was not removed and the two
+the database; however the previous design was not entirely removed and the two
 approaches kept living together. At the beginning it was not clear if
 the engine had to provide a web interface, so was built on top of a web
 framework ([Django](https://www.djangoproject.com/)) even if it turned out
 later on that the web
 interface of the engine would have been a different application, the
-platform. So now we have a number crunching tool implemented with the
+[OpenQuake Platform](http://www.globalquakemodel.org/openquake/about/platform/).
+So now we have a number crunching tool implemented with the
 language of a web framework, not the best of the worlds. At some point
 there where three different mechanism to perform concurrent
 computations, without any technical reason for that, just because of
