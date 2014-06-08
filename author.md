@@ -12,12 +12,12 @@ Cosmology. At the time I was working mostly on supergravity theories,
 differential geometry and symmetries in Quantum Field Theories. Then I
 got a Ph. D. about the Renormalization of Quantum Field Theory from
 the University of Pavia. At that point I moved on to Paris where I
-spent three years and half working on both Equilibrium and Out of
+spent three years and a half working on both Equilibrium and Out of
 Equilibrium Quantum Field Theory. Later, I moved again, this time to
 the United States, and I spent a couple of years at the University of
 Pittsburgh, as a research associate, with some dabbling also in the
 Early Universe Cosmology. At that time I decided that it was time for
-a more radical change, so I quit Physics and become a programmer.
+a more radical change, so I quit Physics and became a programmer.
 
 I rapidly became an expert on Python and I started writing papers on
 it, especially the famous ones about [metaclasses]
