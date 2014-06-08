@@ -29,8 +29,8 @@ became one of the founder of the Italian Python Association.  I was
 finally hired by a financial firm in Milan and spent 7 years working
 with databases and web applications in the field of financial risk
 assessment. In 2008 I went back to write technical articles, first for
-the Italian web fanzine [Stacktrace](stacktrace.it) and the for [my
-blog](artima.com/weblogs/index.jsp?blogger=micheles).  Starting from
-October 2012 I am an employee of [GEM](globalquakemodel.org/), a non-profit company
+the Italian web fanzine [Stacktrace](http://stacktrace.it) and the for [my
+blog](www.artima.com/weblogs/index.jsp?blogger=micheles).  Starting from
+October 2012 I am an employee of [GEM](www.globalquakemodel.org/), a non-profit company
 specialized on earthquakes and seismic risk assessment. Now I am the
 maintainer of the Openquake Engine and I am working full time on it.
