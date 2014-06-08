@@ -32,7 +32,7 @@ Association.  I was finally hired by a financial firm in Milan and
 spent 7 years working with databases and web applications in the field
 of financial risk assessment. In 2008 I went back to write technical
 articles, first for the Italian web fanzine
-[Stacktrace](http://stacktrace.it) and the for [my blog]
+[Stacktrace](http://stacktrace.it) and then for [my blog]
 (http://www.artima.com/weblogs/index.jsp?blogger=micheles).
 
 Starting from October 2012 I am an employee of
