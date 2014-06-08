@@ -27,7 +27,6 @@ and to solicit comments and feedback. The blog posts here are also
 forwarded to the [openquake-users]
 (https://groups.google.com/forum/?hl=en#!forum/openquake-users) mailing list.
 
-
 Some posts will serve as documentation of the engine and may
 be moved to the official docs later on. Other posts will serve to
 provide the background and explanations for certain technical
@@ -40,8 +39,7 @@ but just requests for new features and improvements.
 
 If you are a skilled developer, you can follow the development on the
 [GitHub repositories](https://github.com/gem/), since it is
-entirely public, and not a single code line enters in the engine
-without a public code review. This blog is for all the people who care
+entirely public, and not a single code line enters in the engine code base
+without an open review. This blog is for the ones who care
 about the development of the engine but do not have the time or the
 expertise to follow the code reviews.
-

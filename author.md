@@ -3,8 +3,8 @@ layout: page
 title: Michele Simionato
 ---
 
-I have been the main developer of the OpenQuake Engine starting from
-January 2014. Before that I had a long and variegated professional history.
+Recently I have become the main developer of the OpenQuake Engine.
+Before that I had a long and variegated professional history.
 
 I started out as a Theoretical Physicist, with a master degree from
 Padua University, with a specialization in Astrophysics and
