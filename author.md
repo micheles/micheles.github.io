@@ -17,7 +17,7 @@ Equilibrium Quantum Field Theory. Later, I moved again, this time to
 the United States, and I spent a couple of years at the University of
 Pittsburgh, as a research associate, with some dabbling also in the
 Early Universe Cosmology. At that time I decided that it was time for
-a more radical change, so I quit Physics and became a programmer.
+a more radical change, so I quit Physics and have become a programmer.
 
 I rapidly became an expert on Python and I started writing papers on
 it, especially the famous ones about [metaclasses]
@@ -37,5 +37,5 @@ articles, first for the Italian web fanzine
 
 Starting from October 2012 I have been an employee of
 [GEM](http://www.globalquakemodel.org/), a non-profit company
-specialized on earthquakes and seismic risk assessment. Now I am the
+specialized on earthquakes and seismic risk assessment. I am now the
 maintainer of the Openquake Engine and I am working full time on it.
