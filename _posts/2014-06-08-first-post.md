@@ -3,7 +3,7 @@ layout: post
 title: Back to the world of technical blogging!
 ---
 
-I have been writing papers for years and I have kept a techical
+I have been writing papers for years and I have kept a technical
 blog on [Artima](http://www.artima.com/weblogs/index.jsp?blogger=micheles)
 for a while, but some time ago I got lost in other kind of writings and
 I stopped blogging for nearly four years. In the meanwhile I have switched

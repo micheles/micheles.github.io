@@ -9,7 +9,7 @@ hazard and risk calculation; to me, as a developer, the engine is
 a set of libraries that can be used as building blocks to build
 the features we want to add.
 
-Currently the engine codebase is split among 5 different repositories:
+Currently the engine code base is split among 5 different repositories:
 
 - [oq-hazardlib](https://github.com/gem/oq-hazardlib)
 - [oq-nrmllib](https://github.com/gem/oq-nrmllib)
@@ -96,7 +96,7 @@ the code specific to the engine is kept. It is by far the largest
 repositories of all and the one where most of the effort went. It is
 also the one with the most contributors. `hazardlib`, `risklib` and to
 a lesser extend `commonlib`, had each one major contributor, although
-a different one for each library, and so they exhbit some internal
+a different one for each library, and so they exhibit some internal
 consistency, even if there is no strong inter-library consistency. The
 engine, on the contrary, never had a major contributor or architect:
 historically the CTO changed quite often at the beginning of the
@@ -133,4 +133,4 @@ much as possible of the logic inside `commonlib`, so that it can be
 used in other applications as well.
 
 In short, *the engine is not good yet, but it is much better than it
-was before and it keeps improving*.
+used to be and it keeps improving*.
