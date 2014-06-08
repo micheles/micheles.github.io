@@ -35,7 +35,7 @@ articles, first for the Italian web fanzine
 [Stacktrace](http://stacktrace.it) and then for [my blog]
 (http://www.artima.com/weblogs/index.jsp?blogger=micheles).
 
-Starting from October 2012 I am an employee of
+Starting from October 2012 I have been an employee of
 [GEM](http://www.globalquakemodel.org/), a non-profit company
 specialized on earthquakes and seismic risk assessment. Now I am the
 maintainer of the Openquake Engine and I am working full time on it.
