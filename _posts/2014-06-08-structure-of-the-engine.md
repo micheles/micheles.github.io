@@ -101,7 +101,7 @@ consistency, even if there is no strong inter-library consistency. The
 engine, on the contrary, never had a major contributor or architect:
 historically the CTO changed quite often at the beginning of the
 development, so that the architecture of the engine has been
-schizophrenic at best. It started as the brainchild of [noSQL]
+somewhat schizophrenic. It started as the brainchild of [noSQL]
 (http://en.wikipedia.org/wiki/NoSQL)
 enthusiasts, with Redis as its unique database; then it went into the
 hands of PostgreSQL lovers, so that everything (even too much) went into
