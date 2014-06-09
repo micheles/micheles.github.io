@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
   {% include head.html %}
+  {% include google_ajax_search.html %}
   <body>
 
     <div class="container content">
@@ -9,6 +10,8 @@
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
+       <div id="search" />
+
 {% for page in site.pages_list %}
   &nbsp;&nbsp;&nbsp;
   <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
