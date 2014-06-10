@@ -3,14 +3,14 @@ layout: post
 title: Return to Miriam's island
 ---
 
-In the previous episode we told how we were able to finally run
-Miriam's risk computation. In this episode we will explain what
-happened in the hazard part, and how we were able to reduce the
-running time of the hazard calculation from 7 hours to 7
-minutes. Please, stay tuned!
+In the [previous episode](/2013/06/12/the-story-of-Miriam-island-2/)
+we told how we were able to finally run Miriam's risk computation. In
+this episode we will explain what happened in the hazard part, and how
+we were able to reduce the running time of the hazard calculation from
+7 hours to 7 minutes. Please, stay tuned!
 
 
-# The situation so far
+## The situation so far
 
 In part one we saw that in order to run the risk computation
 efficiently, we had to change the way the aggregation of the ground
@@ -52,7 +52,7 @@ yet another issue:
    calculation was missing and locations were stored directly in the
    GMF tables, not in the hazard_site table.
 
-# What was done
+## What was done
 
 The lack of a site table, apart from the data duplication issue, made
 the risk calculation more complicated than needed. Instead, with a
