@@ -1,4 +1,7 @@
-# The story of Miriam's Island
+---
+layout: post
+title: The story of Miriam's Island
+---
 
 Once upon a time there was a little island in the Caribbean sea, that
 shall be named Miriam's island. Alas, that was not a happy island,

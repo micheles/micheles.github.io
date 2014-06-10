@@ -1,4 +1,7 @@
-# Return to Miriam's island
+---
+layout: post
+title: Return to Miriam's island
+---
 
 In the previous episode we told how we were able to finally run
 Miriam's risk computation. In this episode we will explain what
@@ -7,7 +10,7 @@ running time of the hazard calculation from 7 hours to 7
 minutes. Please, stay tuned!
 
 
-## The situation so far
+# The situation so far
 
 In part one we saw that in order to run the risk computation
 efficiently, we had to change the way the aggregation of the ground
@@ -49,7 +52,7 @@ yet another issue:
    calculation was missing and locations were stored directly in the
    GMF tables, not in the hazard_site table.
 
-## What was done
+# What was done
 
 The lack of a site table, apart from the data duplication issue, made
 the risk calculation more complicated than needed. Instead, with a
@@ -126,13 +129,14 @@ For the curious readers, here I will report some pictures and tables
 for case studies we analyzed in detail.
 
 The plot below shows the assets in Miriam's island and their association
-to the pre-computed hazard sites:
+to the pre-computed hazard sites (click [here](/images/miriam-island.png)
+to see it in regular size):
 
- .. image:: miriam-island.png
+![](/images/miriam-island.png)
 
 In total we have nearly 6,000 assets, but for the sake of the picture,
-I have only plotted 194 of them, for a specific taxonomy. The associations
-in chunks of assets closest to the same hazard site make it possible
+I have only plotted 194 of them, for a specific taxonomy. Clustering together
+the assets close to the same hazard site make it possible
 a substantial optimization: instead of retrieving from the database
 large arrays several times (once per asset) for all the assets close
 to the same site we retrieve the ground motion values only once.
