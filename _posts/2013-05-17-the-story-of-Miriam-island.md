@@ -3,8 +3,8 @@ layout: post
 title: The story of Miriam's Island
 ---
 
-Once upon a time there was a little island in the Caribbean sea, that
-shall be named Miriam's island. Alas, that was not a happy island,
+Once upon a time there was a little island in the Caribbean sea.
+It shall be named Miriam's island. Alas, that was not a happy island,
 because it was in one of the most seismic regions of the world,
 with earthquakes shaking the ground several times per year.
 Somebody had the idea of building a virtual city on it, with a little
@@ -13,13 +13,13 @@ analysis on those assets.
 
 And so our nightmare began. We had just installed our shiny new cluster,
 with 256 cores distributed in four workers and 32 cores in a powerful
-master, all machines with 128GB or RAM and some terabyte
-of disk space. We said: let us test our super cluster with this toy
+master, all machines with 128GB of RAM and some terabyte
+of disk space. We said: let us test our cluster with this toy
 computation, surely it will be a snap for it, a warming exercise
 before we start the serious jobs. We launched the computation on a Friday.
 
 On the following Monday, we found the cluster on its knees, swapping like
-mad, with a memory occupation in Postgres well over the limits.  We
+a mad, with a memory occupation well over the limits.  We
 killed everything, and we started a much smaller computation which we
 were able to finish. From that we measured the memory consumption and we
 estimated that, in order to run the original computation, we would have
@@ -87,9 +87,9 @@ the ground motion values. By returning the ruptures only once and not
 we were able to nearly cut in half the memory occupation.
 
 But it was yet not enough to run the computation on the full cluster:
-with 256 cores running the memory occupation was still to high.
-We worked around the problem by increasing the block_size parameter
-in such a way to generate less tasks: with 60 tasks we could barely
+with 256 cores running the memory occupation was still too high.
+We worked around the problem by increasing the `block_size` parameter,
+thus generating less tasks: with 60 tasks we could barely
 finish the computation, by remaining a little bit below the 128 GB
 limit. But it was not a satisfactory result: our measurements showed
 that the larger the number of tasks, the larger the load on the
@@ -111,39 +111,28 @@ the problem was: we were transferring and unmarshalling too much data,
 therefore we had to look at ways to reduce the data transfer. In order
 to do so, we had a look at our exposure and we discovered that it was
 clusterized, i.e. we had groups of geographically
-close assets. Clearly if 10 assets are close to the same ground motion field,
-we can transfer that ground motion field only once, not 10 times. That
+close assets. Clearly if ten assets are close to the same ground motion field,
+we can transfer that ground motion field only once, not ten times. That
 observation made a gigantic difference: with that optimization for the
 first time we were able to run the computation on the cluster, by
 using all of the cores, by fitting in RAM and without being dominated
 by the database.  This is a story with a happy ending, and here are
 the numbers of one of our latest runs:
 
-Number of hazard sites:
-  1792
-Average number of ruptures per site:
-  229,030
-Estimated disk space on db:
-  6,262 MB
-Number of assets:
-  5,689
-Number of tasks:
-  290
-Computation time: (to be divided by #tasks)
-  28,011 s
-Getting data time: (to be divided by #tasks)
-  23,573 s
-Post processing time:
-  88 s
-Maximum memory allocated by a single task:
-  348 MB
-Maximum memory used on a worker:
-  19.6 GB
-Running time:
-  7m2s
+Number of hazard sites: 1792
+Average number of ruptures per site: 229,030
+Estimated disk space on db: 6,262 MB
+Number of assets: 5,689
+Number of tasks: 290
+Computation time: (to be divided by #tasks) 28,011 s
+Getting data time: (to be divided by #tasks) 23,573 s
+Post processing time: 88 s
+Maximum memory allocated by a single task: 348 MB
+Maximum memory used on a worker: 19.6 GB
+Running time: 7m2s
 
 Yes, you have read correctly, the computation that brought our cluster to its
-knees now is performed in 7 minutes! And it takes only 15% of the
+knees now was performed in 7 minutes! And it was taking only 15% of the
 available memory!
 
 The problem was solved and Miriam went on vacation...
@@ -162,28 +151,17 @@ even better: to test that expectation, we moved Miriam's island
 in the center of Tokyo, since we had the hazard computed in that
 region available. Here are the numbers we got:
 
-Number of hazard sites:
-  1431
-Average number of ruptures per site:
-  203,462
-Estimated disk space on db:
-  4442
-Number of assets:
-  5,689
-Number of tasks:
-  290
-Computation time: (to be divided by #tasks)
-  29,470 s
-Getting data time: (to be divided by #tasks)
-  1,484 s
-Post processing time:
-  230
-Maximum memory allocated by a single task:
-  86 MB
-Maximum memory used on a worker:
-  12.1 GB
-Running time:
-  9m31s
+Number of hazard sites: 1431
+Average number of ruptures per site: 203,462
+Estimated disk space on db: 4442
+Number of assets: 5,689
+Number of tasks: 290
+Computation time: (to be divided by #tasks) 29,470 s
+Getting data time: (to be divided by #tasks) 1,484 s
+Post processing time: 230
+Maximum memory allocated by a single task: 86 MB
+Maximum memory used on a worker: 12.1 GB
+Running time: 9m31s
 
 Here is the story the numbers are telling us: the hazard in Miriam's
 island was realistic in terms of ruptures, ~200,000 ruptures per site
@@ -198,4 +176,5 @@ to the cluster in the future.
 
 In short, the performance problem in the risk is now solved. We have
 now a performance problem in the hazard side, in the post-processing
-phase, but that's another story...
+phase, but that's a story for [another day]
+(/2013-06-12-the-story-of-Miriam-island-2.md)...
