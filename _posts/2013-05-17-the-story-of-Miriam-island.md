@@ -119,17 +119,20 @@ using all of the cores, by fitting in RAM and without being dominated
 by the database.  This is a story with a happy ending, and here are
 the numbers of one of our latest runs:
 
-Number of hazard sites: 1792
-Average number of ruptures per site: 229,030
-Estimated disk space on db: 6,262 MB
-Number of assets: 5,689
-Number of tasks: 290
-Computation time: (to be divided by #tasks) 28,011 s
-Getting data time: (to be divided by #tasks) 23,573 s
-Post processing time: 88 s
-Maximum memory allocated by a single task: 348 MB
-Maximum memory used on a worker: 19.6 GB
-Running time: 7m2s
+
+Parameter              | Value
+-----------------------|------
+Number of hazard sites | 1792
+Average number of ruptures per site | 229,030
+Estimated disk space on db | 6,262 MB
+Number of assets | 5,689
+Number of tasks | 290
+Computation time | (to be divided by #tasks) 28,011 s
+Getting data time | (to be divided by #tasks) 23,573 s
+Post processing time | 88 s
+Maximum memory allocated by a single task | 348 MB
+Maximum memory used on a worker | 19.6 GB
+Running time | 7m2s
 
 Yes, you have read correctly, the computation that brought our cluster to its
 knees now was performed in 7 minutes! And it was taking only 15% of the
@@ -151,17 +154,20 @@ even better: to test that expectation, we moved Miriam's island
 in the center of Tokyo, since we had the hazard computed in that
 region available. Here are the numbers we got:
 
-Number of hazard sites: 1431
-Average number of ruptures per site: 203,462
-Estimated disk space on db: 4442
-Number of assets: 5,689
-Number of tasks: 290
-Computation time: (to be divided by #tasks) 29,470 s
-Getting data time: (to be divided by #tasks) 1,484 s
-Post processing time: 230
-Maximum memory allocated by a single task: 86 MB
-Maximum memory used on a worker: 12.1 GB
-Running time: 9m31s
+Parameter              | Value
+-----------------------|------
+Number of hazard sites | 1431
+Average number of ruptures per site | 203,462
+Estimated disk space on db | 4442
+Number of assets | 5,689
+Number of tasks | 290
+Computation time | (to be divided by #tasks) 29,470 s
+Getting data time | (to be divided by #tasks) 1,484 s
+Post processing time | 230
+Maximum memory allocated by a single task | 86 MB
+Maximum memory used on a worker | 12.1 GB
+Running time | 9m31s
+
 
 Here is the story the numbers are telling us: the hazard in Miriam's
 island was realistic in terms of ruptures, ~200,000 ruptures per site
