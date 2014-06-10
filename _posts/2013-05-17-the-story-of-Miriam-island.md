@@ -127,8 +127,8 @@ Average number of ruptures per site | 229,030
 Estimated disk space on db | 6,262 MB
 Number of assets | 5,689
 Number of tasks | 290
-Computation time | (to be divided by #tasks) 28,011 s
-Getting data time | (to be divided by #tasks) 23,573 s
+Computation cumulative time | 28,011 s
+Getting data cumulative time | 23,573 s
 Post processing time | 88 s
 Maximum memory allocated by a single task | 348 MB
 Maximum memory used on a worker | 19.6 GB
@@ -161,8 +161,8 @@ Average number of ruptures per site | 203,462
 Estimated disk space on db | 4442
 Number of assets | 5,689
 Number of tasks | 290
-Computation time | (to be divided by #tasks) 29,470 s
-Getting data time | (to be divided by #tasks) 1,484 s
+Computation cumulative time | 29,470 s
+Getting data cumulative time | 1,484 s
 Post processing time | 230
 Maximum memory allocated by a single task | 86 MB
 Maximum memory used on a worker | 12.1 GB
