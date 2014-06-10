@@ -3,8 +3,8 @@ layout: post
 title: Return to Miriam's island
 ---
 
-In the [previous episode](/2013/06/12/the-story-of-Miriam-island-2/)
-we told how we were able to finally run Miriam's risk computation. In
+In the [previous episode](/2013/06/12/the-story-of-Miriam-island/)
+we told the story of how we were able to run Miriam's risk computation. In
 this episode we will explain what happened in the hazard part, and how
 we were able to reduce the running time of the hazard calculation from
 7 hours to 7 minutes. Please, stay tuned!
