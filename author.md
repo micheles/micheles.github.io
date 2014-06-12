@@ -3,6 +3,8 @@ layout: page
 title: Michele Simionato
 ---
 
+![](images/myself.jpg)
+
 Recently I have become the main developer of the OpenQuake Engine.
 Before that I had a long and variegated professional history.
 
@@ -39,3 +41,5 @@ Starting from October 2012 I have been an employee of
 [GEM](http://www.globalquakemodel.org/), a non-profit company
 specialized on earthquakes and seismic risk assessment. I am now the
 maintainer of the Openquake Engine and I am working full time on it.
+
+PS: usually I do not dress up as nicely as in the picture!
