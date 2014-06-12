@@ -21,7 +21,7 @@ improvements.
    redis) were removed. We have now a code base which is much smaller
    and more maintainable.
 
-2  Several delicate configuration parameters
+2. Several delicate configuration parameters
    (hazard_block_size, risk_block_size, point_source_block_size,
    concurrent_tasks) were removed, thus reducing the burden on the
    final user. Now the engine is smart enough to deduce automagically
