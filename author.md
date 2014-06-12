@@ -3,7 +3,7 @@ layout: page
 title: Michele Simionato
 ---
 
-![](images/myself.jpg)
+![](/images/myself.jpg)
 
 Recently I have become the main developer of the OpenQuake Engine.
 Before that I had a long and variegated professional history.
