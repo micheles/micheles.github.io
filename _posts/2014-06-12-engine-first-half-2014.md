@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A report on the work done in the Engine in the first half of 2014
+title: Work done on the engine in the first half of 2014
 ---
 
 A few days ago our [Director of Technology and Development]
