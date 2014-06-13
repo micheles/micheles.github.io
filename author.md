@@ -36,6 +36,6 @@ articles, first for the Italian web fanzine
 (http://www.artima.com/weblogs/index.jsp?blogger=micheles).
 
 Starting from October 2012 I have been an employee of
-[GEM](http://www.globalquakemodel.org/), a non-profit company
+[GEM](http://www.globalquakemodel.org/), a non-profit foundation
 specialized on earthquakes and seismic risk assessment. I am now the
 maintainer of the Openquake Engine and I am working full time on it.
