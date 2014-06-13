@@ -8,7 +8,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            The OpenQuake Engine Blog
+title:            The Unofficial OpenQuake Engine Blog
 tagline:          
 url:              http://
 paginate:         1
