@@ -18,10 +18,9 @@ ideas on its development and its future. My ideas are my own, and they
 do not necessarily reflect the official view of GEM. The development
 of the engine and of all GEM products is a mediation between the
 *desiderata* of our scientific staff and the needs of the users,
-by taking into account the directives of the Governing Board and the
-suggestions of the sponsors of the foundation. I can just assess the
-technical feasibility of projects and the estimated effort to
-implement them.
+by taking into account the directives of the Governing Board.
+I can just assess the technical feasibility of projects and
+the estimated effort to implement them.
 
 Who should follow this blog? I am writing primarily for the users
 of the engine, to keep them informed of the progress we are making,
