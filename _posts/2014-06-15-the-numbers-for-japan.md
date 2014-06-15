@@ -86,3 +86,24 @@ of the risk calculator*. At the moment the risk calculator explodes
 with the refactoring that I have already done with a hard out-of-memory
 issue: but I am an optimist. These things never work at the first attempt.
 The secret is to keep trying.
+
+PS: the astute reader will notice that the numbers do not add up: I
+said that the dominant factor was the saving time, but even if I
+reduce that to zero, I wrote that I hope to reduce the total computation time
+only of a half: then, where is spent the other half of the time?
+
+Some of the time is spent in reading the source model and
+storing the sites, but that is fast, under one minute.
+A lot of the time is spent in data transfer, first
+sending the sources to the workers so that the ruptures
+can be computed (700 MB of data are transferred).
+When the ruptures have been computed, they are sent back
+to the controller node, that sends them again to the workers
+(this round trip is necessary since without it it
+would extremely difficul to produce homogeneous tasks).
+That takes some time, since ~2900 MB of data must be
+transferred. The phase where the ruptures are computed
+takes more or less 8 minutes in total. The phase where
+the ground motion fields are computed takes 31 minutes.
+One must also take in account that not all tasks are
+equal and that the system has to wait for the slowest task.

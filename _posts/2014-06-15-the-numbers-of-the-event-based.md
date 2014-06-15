@@ -43,7 +43,7 @@ num_ruptures | 661,450
 
 According to my analysis the needed space should be
 
- `num_sites * num_imts * num_gmpes * num_ruptures * 8` bytes = 3.1 TB
+ `num_sites * num_imts * num_gmpes * num_ruptures * 8 bytes = 3.1 TB`
 
 which seems hopeless, given that we have less of 1 TB of disk space
 directly available to the database. In reality we are able to finish
