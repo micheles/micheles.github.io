@@ -80,7 +80,7 @@ the disk space requirement goes down to 30 GB. Of course that assumes
 that the storage is as efficient as possible (8 bytes for each float)
 and that nothing else is stored. Instead, a database stores much more
 information, so in reality the disk space occupation for that computation
-is around 80 GB. A lot, but manageable.
+is around 60 GB. A lot, but manageable.
 
 I actually have an experimental branch where the database structure
 has been optimized so that the engine stores only 40 GB instead of 30

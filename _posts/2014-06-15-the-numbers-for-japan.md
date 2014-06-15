@@ -38,6 +38,10 @@ the rupture generation part is the dominant factor, since for few
 sites the ground motion field generation takes a negligible amount
 of time.
 
+The computation wrote 55 GB of data, obtained by measuring the
+full size of the database before and the full size after. That assumes
+that no other procedures where writing or purging the database.
+
 You can see all the numbers in the table below:
 
 operation | cumulative time
