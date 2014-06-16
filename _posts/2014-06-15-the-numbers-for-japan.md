@@ -9,7 +9,7 @@ Event Based calculation we have, i.e. the Japan model with
 for a total return period of 10,000 years. I am considering here
 the case without correlation, which is the one where the issue
 of the saving time of the ground motion fields is spectacularly
-evident. I have chosen the configuration parameter to generate
+evident. I have chosen the configuration parameters to generate
 701 tasks, which is a good choice for our cluster with 256 cores.
 
 Here are some infos about the source model used, which has 3 tectonic region
@@ -40,7 +40,12 @@ of time.
 
 The computation wrote 55 GB of data, obtained by measuring the
 full size of the database before and the full size after. That assumes
-that no other procedures where writing or purging the database.
+that no other procedures were writing or purging the database in the
+meanwhile. The storage is quite efficient; 9,726,005 rows where written
+in the table gmf_data, with arrays of average length of 430: that
+means that the saving procedure is as fast as possible with the
+current database structure. We had much worse performance in the
+past, in cases when we where saving short arrays.
 
 You can see all the numbers in the table below:
 

@@ -39,7 +39,7 @@ Parameter    | Value
 num_sites    | 42,921
 num_imts     | 5
 num_gmpes    | 3
-num_ruptures | 661,450
+num_ruptures | 661,323
 
 According to my analysis the needed space should be
 
@@ -54,7 +54,7 @@ beyond the `maximum_distance` parameter) we assume that the
 ground motion value is zero on that point.
 
 Or analysis shows that in the case of Japan, with the parameters we
-are using, a rupture in average affects only 1245 sites: most of the
+are using, a rupture in average affects only 1231 sites: most of the
 sites are too far away. So, in our estimate, we should put the total
 number of sites but the effective number of sites which are
 affected. It quite difficult to estimate that number on paper, but it
@@ -68,7 +68,7 @@ full computation. Of course the full computation will have much more ruptures,
 but the average number of affected sites per rupture will be more
 ore less the same.
 
-By using the effective number of sites of 1245 instead of 42921, the
+By using the effective number of sites of 1231 instead of 42921, the
 estimate for the space needed goes down to 92 GB, a much more reasonable
 number. Actually, even this number is too pessimistic: the number of
 GMPEs has been overestimated. The important number is not the total number
