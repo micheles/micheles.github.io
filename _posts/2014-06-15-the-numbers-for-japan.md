@@ -45,7 +45,7 @@ meanwhile. The storage is quite efficient; 9,726,005 rows where written
 in the table gmf_data, with arrays of average length of 430: that
 means that the saving procedure is as fast as possible with the
 current database structure. We had much worse performance in the
-past, in cases when we where saving short arrays.
+past, in cases when we were saving short arrays.
 
 You can see all the numbers in the table below:
 
