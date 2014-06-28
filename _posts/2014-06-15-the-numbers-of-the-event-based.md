@@ -31,7 +31,8 @@ of results into the database.
 
 With these numbers everything seems hopeless. Luckily in real computations
 the situation is not so terribly bad. So let me give some numbers for a
-real use case we have, i.e. the event based computation for Japan,
+real use case we have, i.e. the [event based computation for Japan]
+((http://2014/06/15/the-numbers-for-japan/),
 considering a time span of 10,000 years:
 
 Parameter    | Value
@@ -53,20 +54,19 @@ values are zeros, because if a point is far away from a rupture (i.e.
 beyond the `maximum_distance` parameter) we assume that the
 ground motion value is zero on that point.
 
-Or analysis shows that in the case of Japan, with the parameters we
-are using, a rupture in average affects only 1231 sites: most of the
-sites are too far away. So, in our estimate, we should put the total
-number of sites but the effective number of sites which are
-affected. It quite difficult to estimate that number on paper, but it
-is quite easy to infer it heuristically.  First of all, you should
-reduce the original computation by a factor of 10 or 100 times by
-reducing the number of stochastic event set and or the investigation
-time. Then you can perform the reduced computation in a reasonable
-amount of time, look at the database and measure the number of
-affected sites. This will be a decent estimation even for the
-full computation. Of course the full computation will have much more ruptures,
-but the average number of affected sites per rupture will be more
-ore less the same.
+In the case of Japan, with the parameters we are using, in average a
+rupture affects only 1231 sites, since most of the sites are too far
+away. So, in our estimate, we should put the total number of sites but
+the effective number of sites which are affected. It quite difficult
+to estimate that number on paper, but it is quite easy to infer it
+heuristically.  First of all, you should reduce the original
+computation by a factor of 10 or 100 times by reducing the number of
+stochastic event set and or the investigation time. Then you can
+perform the reduced computation in a reasonable amount of time, look
+at the database and measure the number of affected sites. This will be
+a decent estimation even for the full computation. Of course the full
+computation will have much more ruptures, but the average number of
+affected sites per rupture will be more ore less the same.
 
 By using the effective number of sites of 1231 instead of 42921, the
 estimate for the space needed goes down to 92 GB, a much more reasonable
