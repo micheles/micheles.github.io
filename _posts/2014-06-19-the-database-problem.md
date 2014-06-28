@@ -6,43 +6,44 @@ title: The Database Problem
 
 Necessary premise: *I love relational databases*. Before coming to GEM I
 did spend 7 years of my life working with large, enterprise-level, relational
-databases. I have spent a lot of time in optimizing database queries,
+databases. I spent a lot of time in optimizing database queries,
 designing relational tables, writing advanced views and stored procedures,
 constraints and all that. I once implemented a partitioning project for 
-a large Postgres table. Databases with over 100 tables and and tables with over
-100 million records are normal to me. Even if I would not
+PostgreSQL. Databases with over 100 tables and and tables with over
+100 million records were normal to me. Even if I would not
 call myself a database expert, certainly I am not a
 beginner. And, as I said, I like the relational model and
 I like to think relationally. So take everything I will say as
 something coming from a database lover.
 
-A couple of years ago I had my first job interview with GEM. During the
-interview I was told about the engine, and about the fact that it was using
-PostgreSQL as backend to store te results. At the time I was pretty
-much surprised: I had never heard of using a relational database to store
-numbers coming from a number crunching application. It seemed like
-a bad idea. Then I got my job and after few months I started working
-on the engine and discovered that the situation was much worse
-than I could imagine: the database was used not only to store very
-large arrays of floats, but for everything related to the scientific logic.
-The algorithms of the calculators were implemented in the database.
-Which meant that it was nearly
-impossible to develop with the engine because everything had to
-be stored in the database. As you would do in a web application, for every
-object you had to define a table, a Django
-ORM class equivalent to that table, you had to write routines to populate that
-table for usage in the tests, you had to implement data validation code (both in
-the application and in the database, with constraints and possibly
-stored procedure) et cetera. The engine felt nothing
-like a scientific application and everything like an enterprise
-application. 
+A couple of years ago I had my first job interview with GEM. During
+the interview I was told about the engine, and about the fact that it
+was using PostgreSQL as backend to store te results. At the time I was
+pretty much surprised: I had never heard of using a relational
+database to store numbers coming from a number crunching
+application. It seemed like a bad idea. Then I got my job and I
+started working on the engine. Then I discovered that the situation
+was much worse than I could have imagined: the database was used not
+only to store large arrays of floats, but for everything related to
+the scientific logic.  The algorithms of the calculators were
+implemented in the database.  Which meant that it was nearly
+impossible to develop with the engine because, as you would do in a
+web application, for every object you had to define a table, a Django
+ORM class equivalent to that table, you had to write routines to
+populate that table for usage in the tests, you had to implement data
+validation code (both in the application and in the database, with
+constraints and possibly stored procedure) et cetera. All things
+that you would not need to do in a normal scientific application.
+Actually, the engine felt
+nothing like a scientific application and everything like an
+enterprise application.
 
 Within my first week of work with the engine I had
 already identified all the major issues and found a solution,
 which was essentially *the database has to go away from the scientific logic*.
 It I could remove the database all the rest would have been comparatively
-easy to solve. Unfortunately, removing the database was *extremely
-difficult and time consuming*, since it meant to rewrite nearly
+easy to solve. Unfortunately, removing the database was extremely
+difficult and time consuming, since it meant rewriting nearly
 all of the engine code. Basically I had three options:
 
 1. Rewrite the engine from scratch. That would have been the best
@@ -61,7 +62,7 @@ I could work at that part. The disadvantage of this option is that it
 takes years. The advantage is that it is the safest way. At any moment
 you always have a working implementation, you can release the product,
 the users can play with it, they will find issues and bugs and then
-you can progress slowly but surely towards you goal.
+you can progress slowly but surely towards your goal.
 
 3. Do nothing and wait. This is actually a good option and it is the
 one I adopted during my first months at GEM. When you are a new guy
