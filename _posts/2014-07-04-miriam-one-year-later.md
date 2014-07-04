@@ -41,7 +41,7 @@ problem, and the table structure for the ground motion fields is the
 same as it was one year ago. We improved enormously the efficiency of the
 `hazard curves from gmfs` operation: now it is done in just 522 cumulative
 seconds (i.e. ~1 second per task) whereas until one week ago it took
-~30,000 cumulative seconds.  We also improvement on the rupture
+~30,000 cumulative seconds.  We also made some improvement on the rupture
 generation and saving times: however they were not relevant event
 before, so their effect on the total runtime is negligible.
 
@@ -103,7 +103,9 @@ now the machines are less loaded and they do not need to wait for
 free core. It helps that the number of tasks is 515, when befoe it was 701:
 with less tasks there is less context switching and the computation is
 more efficient.
-We saved a lot of memory (1/3 on the workers) and of disk space (35% less):
+We saved a lot of memory (1/3 on the workers, for the maximum memory
+occupation, 40% less for the average memory occupation) and of disk
+space (35% less):
 
 measured_value | before |after
 ---------------|--------|------
