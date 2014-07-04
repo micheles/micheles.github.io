@@ -54,10 +54,10 @@ an issue for the hazard calculation.
 
 The summary for the event based calculator (hazard) is the following:
 
-1. the convertion gmfs -> hazard_curves is now cheap;
+1. the conversion gmfs -> hazard_curves is now cheap;
 2. the saving on the database is still an issue.
 
-# A glimpse of the future
+## A glimpse of the future
 
 Is it possible to do something about 2? Can the refactoring of the table
 structure that I [advocated in the past]
