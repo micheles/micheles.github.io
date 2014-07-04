@@ -60,7 +60,8 @@ The summary for the event based calculator (hazard) is the following:
 # A glimpse of the future
 
 Is it possible to do something about 2? Can the refactoring of the table
-structure that I [advocated in the past](/2014/06/15/the-numbers-for-japan/)
+structure that I [advocated in the past]
+(2014/06/15/the-numbers-of-the-event-based/)
 fill the one order of magnitude gap between saving time and computation time?
 
 For several months I have hoped that it would be the case, based on faith
@@ -76,6 +77,7 @@ computing gmfs | 2,710 s
 hazard curves from gmfs | 606 s
 saving ruptures | 294 s
 generating ruptures | 182 s
+total runtime | 2m 40 s
 
 *It works!* With the new table structure I could improve the saving
 time by more than an order of magnitude, by passing from 27,549s to 2,144s,
@@ -84,8 +86,9 @@ my optmistic estimates. The database is much more compact and the
 disk space occupation passed from 5860 MB to 3716 MB, i.e. 37% of
 the disk space was saved.
 
-The improvement is not restricted to Miriam'island. I repeated the analysis
-for Japan, which is a real model, and I got the following numbers:
+The improvement is not restricted to Miriam'island. I repeated the [analysis
+for Japan](/2014/06/15/the-numbers-for-japan/), which is a real model,
+and I got the following numbers:
 
 operation | before | after
 ----------|--------|--------
@@ -118,6 +121,6 @@ generation of the ruptures phase, which takes 15 minutes, versus
 the 16 minutes of the GMF-generation phase. It is hard to improve more
 on the GMF-generation phase: even with the new table structure the
 saving time is four times bigger than the computation time. Probably
-the solution there is to avoid saving the GMFs and to recompute them
+the solution is to avoid saving the GMFs and to recompute them
 on the fly when they are needed, since the computation is so fast
-(mind you, here I am consider the case without spatial correlation).
+(mind you, here I am considering the case without spatial correlation).
