@@ -31,7 +31,7 @@ updated their repositories, when running a new computation
 they will see an error like this:
 
   Your database is not updated. You can update it by running
-  `$ openquake --upgrade-db`
+  `$ openquake --db upgrade`
 
 By giving this command their database will be automatically updated
 without losing data and then they will be able to run their computation.
