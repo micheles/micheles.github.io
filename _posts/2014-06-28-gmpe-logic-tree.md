@@ -5,9 +5,9 @@ title: The GMPE logic tree, how it works
 
 One of the most complex areas in the engine is the management of logic
 trees, both for the source model and for the GMPEs. Recently
-I have been spending a lot of time refactoring the code for
+I have been spending a lot of time in refactoring the code for
 the GMPE logic tree. Substantial improvements were made, so
-it it time to document what was done and the difference with the
+it is time to document what was done and the difference with the
 past.
 
 Let me start by explaining what I mean by GMPE logic tree.
@@ -53,10 +53,10 @@ Stable Shallow Crust | 5
 Active Shallow Crust | 4
 
 A simple multiplication 2 * 4 * 1 * 2 * 4 * 5 * 4 = 1280 tells us that
-this logic tree has 1280 paths and thus the engine will have to generate
+this logic tree will have 1280 paths and thus the engine will have to generate
 1280 realizations. In other words it will need to do a lot of work, 1280
 times more work than for a single realization. This is why the SHARE
-model could not be done with the engine and actually in the past it was
+model could not be done with the engine directly; actually in the past it was
 done by splitting the source model and doing one tectonic region type
 at the time. If you split, the effort needed is 2 realizations for
 Subduction Deep, 4 realizations for Subduction Interface, 1 realization
