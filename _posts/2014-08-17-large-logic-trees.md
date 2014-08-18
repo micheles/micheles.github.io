@@ -64,8 +64,9 @@ not there, yet.
 
 The time to compute the mean curves is now very small (less than 24
 minutes); before a recent change it would have been over 2 days,
-involving a lot of heavy database queries.  Nowadays all the curves
-are being kept in memory; that involves a double memory consumption in
+involving a lot of heavy database queries.  Nowadays the curves
+are being kept in memory; that involves an increase of the memory
+consumption in the saving phase and a peak in
 the post-processing phase. Actually, with the current implementation,
 at maximum the post-processing phase requires an additional amount of
 memory equal to the memory taken for the hazard curves of the largest
