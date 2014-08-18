@@ -35,7 +35,7 @@ Memory Measure   | Value
 -----------------|--------
 haz_curves_mem   | 12.4 GB
 post_proc_mem    | 24.8 GB
-disk_space_mb    | 22.4 GB
+disk_space_mb    | 22,947
 max_mem_per_core | 113 MB
 
 The memory allocation of the hazard curves has been computed by
@@ -50,7 +50,7 @@ computation time:
 
 Operation          | Time
 -------------------|------
-compute haz curves | 5h50m
+compute hazard curves | 5h50m
 save hazard curves | 4h12m
 compute mean curves| 24m
 
