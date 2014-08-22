@@ -6,7 +6,8 @@ title: Database Migrations
 The current version of OpenQuake (OpenQuake 1.0) does not support database
 migrations. That means than an user upgrading to a newer version of OpenQuake
 must create a new database from scratch and cannot use the results in the
-old database. This is clearly far from ideal.
+old database. Actually the current upgrade procedure *destroys* the
+database. This is clearly far from ideal.
 
 Actually, internally at GEM we use a migration mechanism, so that
 we may upgrade our database to work with newer versions of OpenQuake
@@ -20,15 +21,14 @@ There will be no support for migrating from Openquake 1.0 to 2.0, i.e.
 users will not be able to use data coming from an OpenQuake 1.0
 database. However, users with OpenQuake 2.0 will be able to upgrade to
 later versions (2.1, 2.2, etc) without losing data.
-The migration will happen automatically, at installation time.
 
-Cutting edge users, using GitHub, will be able to use the new mechanism
-even before the official release of OpenQuake 2.0. They will need
-to upgrade all of the OpenQuake-related repositories and to recreate
-the database. After that, the engine will just work. If some
-change to the database will happen in the future, and the users keep
-updated their repositories, when running a new computation
-they will see an error like this:
+Cutting edge users, using GitHub or the nightly builds, will be able
+to use the new mechanism even before the official release of OpenQuake
+2.0. They will need to upgrade all of the OpenQuake-related
+repositories and run the command `$ openquake --upgrade-db`.
+When some change to the database enters in the code base,
+users keeping updated their repositories will see an error like this
+when running a new computation :
 
   Your database is not updated. You can update it by running
   `$ openquake --upgrade-db`
@@ -44,8 +44,8 @@ The user will go back with Git to a versions that worked, and will tell
 us about the problem she had, so that we can help with a solution
 to make the migration possible.
 
-For users relying on the debian packages, the migration will happen at
-installation time. In case of error the installation will fail
+For users relying on the debian packages, the migration will probably
+happen at installation time. In case of error the installation will fail
 with an error message and the user will have the option to go back
 to the previous version of OpenQuake. The database will not be changed.
 
