@@ -24,7 +24,7 @@ num_realizations | 1280
 num_tasks        | 671
 
 The reduction is necessary because currently the full SHARE model
-cannot addressed as a single computation: the quantity of data to return
+cannot be addressed as a single computation: the quantity of data to return
 from the workers is too big and the celery/rabbitmq combo fail. After
 all such libraries were designed to exchange a lot of small messages
 and not a small number of huge messages. Moreover the full model
