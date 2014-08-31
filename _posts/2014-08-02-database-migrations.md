@@ -114,17 +114,18 @@ convention:
 `[four-digit-version-number][optional-flag]-[name].[extension]`
 
 where the extension can be `.sql` or `.py` and the `optional-flag` can
-be `-danger` or `-slow` or nothing; the flag `-danger` identifies the
+be `-danger` or `-slow`; the flag `-danger` identifies the
 scripts that can potentially destroy data, whereas the flag `-slow`
 identifies the scripts that can potentially be slow. When running
 the `openquake --what-if-I-upgrade` command, the user will get
 something like that:
 
 ```
-Your database is at version 0007. If you upgrade to the latest master, you will arrive at version 00014.
+Your database is at version 0007. If you upgrade to the latest master, you
+will arrive at version 00014.
 Please note that the following scripts could be slow:
 
-https://github.com/gem/oq-engine/tree/master/openquake/engine/db/schema/upgrade/0011-slow-set-not-null.sql
+https://github.com/gem/oq-engine/tree/master/openquake/engine/db/schema/upgrade/0011-slow-set-rupture_id-not-null.sql
 ...
 
 Please note that the following scripts are potentially dangerous and could destroy your data:
@@ -132,7 +133,10 @@ Please note that the following scripts are potentially dangerous and could destr
 https://github.com/gem/oq-engine/tree/master/openquake/engine/db/schema/upgrade/0012-danger-drop-gmf_data.sql
 ...
 
-Click on the links if you want to know what exactly the scripts are doing. Even slow script can be fast if your database is small or they touch tables which are empty; even dangerous scripts are fine if they touch empty tables or data you are not interested in.```
+Click on the links if you want to know what exactly the scripts are doing.
+Even slow script can be fast if your database is small or they touch tables
+which are empty; even dangerous scripts are fine if they touch empty tables
+or data you are not interested in.```
 
 If there are no scripts marked `-danger`, you can safely upgrade; it there
 are scripts marked `-slow` you may try to migrate anyway; if you see that
@@ -142,7 +146,7 @@ marked `-danger` you should look at their content on GitHub: in a
 comment there will an explanation about what exactly that script is doing.
 In practice, you want to upgrade anyway, even if the script is marked
 `-danger`, but before upgrading you may want to save some of the data
-that would be destroyed. If you have two machines with
-OpenQuake installed, you may want to upgrade only one machine, perform a
+that would be destroyed. If you have two machines with OpenQuake
+installed, you may want to upgrade only one machine, perform a
 computation with the new version and compare the results with the
 old version, before deciding to migrate.
