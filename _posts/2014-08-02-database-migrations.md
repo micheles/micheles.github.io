@@ -136,7 +136,8 @@ https://github.com/gem/oq-engine/tree/master/openquake/engine/db/schema/upgrade/
 Click on the links if you want to know what exactly the scripts are doing.
 Even slow script can be fast if your database is small or they touch tables
 which are empty; even dangerous scripts are fine if they touch empty tables
-or data you are not interested in.```
+or data you are not interested in.
+```
 
 If there are no scripts marked `-danger`, you can safely upgrade; it there
 are scripts marked `-slow` you may try to migrate anyway; if you see that
