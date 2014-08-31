@@ -147,7 +147,12 @@ marked `-danger` you should look at their content on GitHub: in a
 comment there will an explanation about what exactly that script is doing.
 In practice, you want to upgrade anyway, even if the script is marked
 `-danger`, but before upgrading you may want to save some of the data
-that would be destroyed. If you have two machines with OpenQuake
+that would be destroyed.
+
+In any case, if you have two machines with OpenQuake
 installed, you may want to upgrade only one machine, perform a
 computation with the new version and compare the results with the
-old version, before deciding to migrate.
+old version, before deciding to migrate. Please take in account
+that even if there are no database migrations a new release of
+OpenQuake can contain different algorithms and/or bug fixes
+and so can produce different numbers than the old release.
