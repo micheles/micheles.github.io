@@ -14,7 +14,7 @@ of data; in particular for outputs which huge matrices of number
 a binary format such as [HDF5](https://github.com/gem/oq-nrmllib)
 could be a better choice. However today I am not discussing
 alternative formats: I want to stick to NRML, but I want to
-raise some concerns about some technicalities in its validation.
+raise some concerns about its validation.
 
 The interesting thing about XML is that there are several technologies to
 validate it: at GEM we are using the
@@ -50,7 +50,7 @@ months of effort (we started over one year ago with the project on the
 desktop tools) we are finally in a position where the tool is nearly
 ready. The validation in the engine has been completely rewritten from
 scratch andt now it does not rely on Django, nor on the engine
-database, but only in functionalities coming from commonlib, that can
+database, but only on functionalities coming from commonlib, that can
 be easily installed, since its dependencies are the same of hazardlib
 and risklib. Moreover the procedure to convert from NRML sources to
 hazardlib objects has been rewritten and now it is
@@ -77,11 +77,11 @@ sources, since the risk inputs are still using the old system until
 the old parsers/converters are replace by the new ones.
 
 Maintaining the XMLSchema has a *big* cost: while reading `.xsd` files
-is not so bad, *writing* them is another matter: our experience from
+is not so bad, writing them is another matter: our experience from
 the past tells us that even small changes usually required days of
 effort, considering also the time to write parsers/writers/converters
-and tests. So I say that we should *consider dropping the
-support for the XMLSchema*, and having instead an official GEM
+and tests. So I say that we should consider dropping the
+support for the XMLSchema, and having instead an official GEM
 validator for all of our NRML files. This is not urgent, and we could
 keep the existing system for a transition period, by replacing the old
 system with the new system one piece at the time.
@@ -98,6 +98,7 @@ that:
 
 1. PyQt validation rejects our NRML files saying that they are invalid
    even if they are valid according to third party tools such as xmllint.
+   At least for the version of PyQt that I tried a few months ago.
 
 2. lxml is *extremely* dependent on the version used. Our experience
    is that every time you change version some thing breaks. Even for
@@ -150,4 +151,4 @@ the line number where the invalid node is; in this case I have removed
 one poe from a `ffd` node, and it is certainly a nontrivial debugging
 job to find out where the problem is, considering that the fragility
 functions files can contains dozens or hundreds of nodes. And there
-is no way to perform this kind of validations at the XMLSchema level.
+is no way to perform this kind of validation at the XMLSchema level.
