@@ -16,12 +16,12 @@ could be a better choice. However today I am not discussing
 alternative formats: I want to stick to NRML, but I want to
 raise some concerns about some technicalities in its validation.
 
-The interesting about XML is that there are several technologies to
+The interesting thing about XML is that there are several technologies to
 validate it: at GEM we are using the
-[XMLSchema](http://www.w3.org/XML/Schema) standard. In practice, to
+[XMLSchema](http://www.w3.org/XML/Schema) standard. In practice, in order to
 validate a NRML file, one must define a specification for it in terms
-of XML files following the XMLSchema format, let's call them the
-`.xsd` files from the name of their extension. Then there are tools able to
+of XML files following the XMLSchema format. Let's call them the
+`.xsd` files, from the name of their extension. Then there are tools able to
 validate the NRML file according to the given `.xsd` files. In
 particular, you can find the `.xsd` [files specifying NRML on
 GitHub](https://github.com/gem/oq-nrmllib/blob/master/openquake/nrmllib/schema/nrml.xsd). The specification is rather complex since it involves dozens of files;
@@ -34,15 +34,15 @@ This is in my view a *very* serious problem: it is extremely easy
 to write down NRML files which are valid according to the schema
 and which are actually *invalid* according to the engine. So the whole
 point of the XMLSchema is lost. An user writing a well formed NRML
-file can find it rejected from the engine, possibly in the middle
+file may find it rejected from the engine, possibly in the middle
 of a computation and possibly with an ugly error message.
 
 This is bad. What we need to do is to provide the users with a
 validation tool which:
 
-1) it is using the same identical validation that the engine does,
+1. it is using the same identical validation that the engine does,
    not a partial and insufficient version of it
-2) it is easy to install and does not require the full stack of the
+2. it is easy to install and does not require the full stack of the
    engine
 
 Both requirements are not easy to satisfy, however after several
@@ -55,11 +55,11 @@ be easily installed, since its dependencies are the same of hazardlib
 and risklib. Moreover the procedure to convert from NRML sources to
 hazardlib objects has been rewritten and now it is
 
-1) more reliable (i.e. with better and earlier error messages)
-2) faster (up to two times when converting large input models)
-3) more memory efficient (before the XMLSchema validation was keeping
+1. more reliable (i.e. with better and earlier error messages)
+2. faster (up to two times when converting large input models)
+3. more memory efficient (before the XMLSchema validation was keeping
    the whole XML file in memory, now the validation is done incrementally)
-4) the code base has shrink by several thousand lines of code
+4. the code base has shrink by several thousand lines of code
 
 So everything is good and there are no disadvantages, and that is
 possible only because *a lot* of good work went into it.
@@ -72,7 +72,7 @@ validation, one in the XMLSchema and one in the engine, but the one in
 the engine was not reliable, with bad error messages, and so we had to
 relay on the existence of the previous XMLSchema validation. Now the
 XMLSchema validation is useless and it is not performed by the engine;
-actually, to be accurate, here I am speaking only about the hazard
+actually, to be accurate, here I am speaking about the hazard
 sources, since the risk inputs are still using the old system until
 the old parsers/converters are replace by the new ones.
 
@@ -80,8 +80,8 @@ Maintaining the XMLSchema has a *big* cost: while reading `.xsd` files
 is not so bad, *writing* them is another matter: our experience from
 the past tells us that even small changes usually required days of
 effort, considering also the time to write parsers/writers/converters
-and tests. So I say that we should at least consider dropping the
-support for the XMLSchema, and having instead an official GEM
+and tests. So I say that we should *consider dropping the
+support for the XMLSchema*, and having instead an official GEM
 validator for all of our NRML files. This is not urgent, and we could
 keep the existing system for a transition period, by replacing the old
 system with the new system one piece at the time.
@@ -97,11 +97,11 @@ of PyQt. They both rely on underlying C libraries. My experience is
 that:
 
 1. PyQt validation rejects our NRML files saying that they are invalid
-   even if they are valid according to third party tools such as xmllint
+   even if they are valid according to third party tools such as xmllint.
 
-2. `lxml` is *extremely* dependent on the version used. Our experience
-   is that every time you change version someting breaks. Even for
-   minor version. We were bitten by problems at least 4 or 5 times
+2. lxml is *extremely* dependent on the version used. Our experience
+   is that every time you change version some thing breaks. Even for
+   minor versions. We were bitten by problems at least 4 or 5 times
    in the past: we found several bugs in specific versions of lxml,
    we had to change our parsers at least once to work around some
    issue, and currently the validation of some of our files with the
@@ -109,10 +109,10 @@ that:
 
 In other words, it is a big pain to maintain the support for validation.
 We have also the experience of some of our users wanting to install
-the engine on different systems (Debian instead of Ubuntu) and giving
+the engine on a different system (Debian instead of Ubuntu) and giving
 up essentially just because of issues with the installation of a working
-version of lxml. It seems that the XMLSchema validation of lxml is
-much less tested than the rest of the codebase, so even versions which
+version of lxml. It seems that the XMLSchema validation is
+much less tested than the rest of the codebase of lxml, so even versions which
 are able to parse NRML files flawlessly choke on their validation.
 
 
