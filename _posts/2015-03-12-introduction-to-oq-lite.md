@@ -65,8 +65,10 @@ The usage as a library is quite trivial; if you have a zip file with
 the input files you can just run from the python interpreter the
 following command:
 
+```python
 >>> from openquake.commonlib.commands import run
 >>> run.run('input_files.zip')
+```
 
 For convenience, the `oq-lite` library comes with a command-line tool
 called `oq-lite` which is able to process zip archives:
