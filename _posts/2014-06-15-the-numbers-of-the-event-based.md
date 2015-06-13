@@ -32,7 +32,7 @@ of results into the database.
 With these numbers everything seems hopeless. Luckily in real computations
 the situation is not so terribly bad. So let me give some numbers for a
 real use case we have, i.e. the [event based computation for Japan]
-(http://2014/06/15/the-numbers-for-japan/),
+(/2014/06/15/the-numbers-for-japan/),
 considering a time span of 10,000 years:
 
 Parameter    | Value
