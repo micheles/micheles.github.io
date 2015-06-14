@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Introducing the DataStore (i.e. HDF5 rocks!)
+title: Introducing the DataStore (i.e. HDF5 rocks)
 ---
 
 As I said several times before in this blog, the single biggest
-mistake in the architecture of the engine was the intensive usage of a
+mistake in the architecture of the engine was the pervasive use of a
 relational database in numerical code. It should be obvious that
-performance-critical numerical code cannot affort to wait for the
+performance-critical code cannot affort to wait for the
 database to read and write gigabytes of data. Unfortunately this was
 not clear to the original designers of the engine, who fortunately I have
 never met. Basically, I have spent of all my time at GEM fighting
