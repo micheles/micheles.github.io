@@ -123,10 +123,10 @@ def compute_classical_psha(job_ini):
 ```
 
 [hdfview](https://www.hdfgroup.org/products/java/hdfview/) is a Java
-tool to visualize and edit HDF5 files (the advantages of using
-standard: we did not have to write it!).
+tool to visualize and edit HDF5 files (the advantage of using
+standards: we did not have to write it).
 
-Incidentally, let me point out that this ~20 line routine is
+Incidentally, let me point out that this ~20=line routine is
 essentially doing 90% of the work than in the original oq-engine was
 done in ~10000 lines of code (most of them spent in defining database
 tables that here are simply not needed) ~100 times less efficiently.
