@@ -6,10 +6,11 @@ title: Using the DataStore
 In a [previous post](/2015/06/14/introducing-the-datastore) I told the story
 behind the DataStore class. Today I will show how to use it.
 A DataStore instance is a dictionary-like object built around
-an underlying HDF5 file. An HDF5 file a dictionary-like object
-with keys which are strings of the form `"/some/path/to/the/data"`
-and values which are basic data types (i.e. integers, floats,
-strings, arrays). You can learn the concepts about HDF5
+an underlying HDF5 file. An HDF5 file is a dictionary-like object
+with keys which are strings of the form `"/some/path/to/the/data"`.
+The values are basic data types i.e. integers, floats,
+strings, and arrays, which can be stored efficiently.
+You can learn the concepts about HDF5
 files [here](http://docs.h5py.org/en/latest/). The DataStore
 is a thin wrapper over a `h5py.File` object.
 You can use it as follows:
@@ -39,12 +40,15 @@ You can use it as follows:
 All of the regular methods of a Python dictionary are available. The
 DataStore is more than a wrapper of a HDF5 file, and actually it is
 able to persist any pickleable Python object. In fact, the HDF5
-storage is used solely for numpy arrays, which however are the most
-common objects that need storing in the oq-lite calculators. You can
-see the full documentation of the datastore module at
+file is used solely for numpy arrays, whereas general Python objects
+are save in the datastore directory as pickled files. However arrays are the most
+important objects that need storing in the oq-lite calculators, and the plan
+for the future is to replace as much as possible Python objects with numpy
+arrays, which are much much more efficiently stored and moved around.
+You can see the full documentation of the datastore module at
 [docs.openquake.org](http://docs.openquake.org/oq-risklib/master/openquake.commonlib.html#module-openquake.commonlib.datastore).
 
-The important thing to remember is that *the datastore does not support
+One important thing to remember is that *the datastore does not support
 concurrent writing*. This is due both to a limitation in the underlying
 h5py library and to an architectural constraint: when doing parallel
 computations in the oq-lite we adhere to a strict
@@ -58,7 +62,7 @@ The case of running concurrent calculations is managed in the simplest
 possible way: each time a datastore is instantiate a new directory is
 created and a HDF5 file called `output.hdf5` is created
 inside that directory. The location of the directory
-is determined by the environment variable OQ_DATADIR. If the variable
+is determined by the environment variable $OQ_DATADIR. If the variable
 is not set, the datastore uses the directory $HOME/oqdata as base
 path for the datastore directories. When a DataStore is instantiated,
 the base directory is searched (it is automatically created if not found)
@@ -92,17 +96,17 @@ def compute_classical_psha(job_ini):
     sitecol = readinput.get_site_collection(oq)
     # read the source model
     csm = readinput.get_composite_source_model(oq, sitecol)
-    # group the sources by tectonic region type ID
+    # group the sources by tectonic region model ID
     sources_by_trt_id = groupby(csm.get_sources(),
                                 lambda src: src.trt_model_id)
-    # dictionary trt_id -> list of GSIMs
+    # dictionary trt_model_id -> list of GSIMs
     gsims_assoc = csm.get_rlzs_assoc().get_gsims_by_trt_id()
-    # instantiate a new datastore
+    # instantiate an empty datastore
     dstore = datastore.DataStore()
     # sequentially compute the curves for earch tectonic region type
     for trt_id, sources in sources_by_trt_id.iteritems():
         trt = sources[0].tectonic_region_type
-        print 'Considering trt_id=%s, TRT=%s' % (trt_id, trt)
+        print 'Considering trt_model_id=%s, TRT=%s' % (trt_id, trt)
         gsims = gsims_assoc[trt_id]
         # a list of curves, one for each GSIM
         all_curves = hazard_curves_per_trt(
@@ -118,9 +122,9 @@ def compute_classical_psha(job_ini):
     print 'See the results with hdfview %s/output.hdf5' % dstore.calc_dir
 ```
 
-[hdfview](https://www.hdfgroup.org/products/java/hdfview/) is Java
+[hdfview](https://www.hdfgroup.org/products/java/hdfview/) is a Java
 tool to visualize and edit HDF5 files (the advantages of using
-standard: we did not have to write it).
+standard: we did not have to write it!).
 
 Incidentally, let me point out that this ~20 line routine is
 essentially doing 90% of the work than in the original oq-engine was
