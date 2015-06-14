@@ -3,7 +3,7 @@ layout: post
 title: Using the DataStore
 ---
 
-In a [previous post](/2015-06-15-using-the-datastore) I told the story
+In a [previous post](/2015/06/14/introducing-the-datastore) I told the story
 behind the DataStore class. Today I will show how to use it.
 A DataStore instance is a dictionary-like object built around
 an underlying HDF5 file. An HDF5 file a dictionary-like object
