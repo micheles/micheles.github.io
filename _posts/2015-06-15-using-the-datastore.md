@@ -7,7 +7,7 @@ In a [previous post](/2015-06-15-using-the-datastore) I told the story
 behind the DataStore class. Today I will show how to use it.
 A DataStore instance is a dictionary-like object built around
 an underlying HDF5 file. An HDF5 file a dictionary-like object
-with keys which are strings of the form '/some/path/to/the/data'
+with keys which are strings of the form `"/some/path/to/the/data"`
 and values which are basic data types (i.e. integers, floats,
 strings, arrays). You can learn the concepts about HDF5
 files [here](http://docs.h5py.org/en/latest/). The DataStore
@@ -18,7 +18,7 @@ You can use it as follows:
   >>> import numpy
   >>> from openquake.commonlib.datastore import DataStore
 
-  >>> ds = DataStore()  # instantiate a datastor
+  >>> ds = DataStore()  # instantiate a datastore
   >>> ds.hdf5  # the underlying h5py.File instance
   <HDF5 file "output.hdf5" (mode r+)>
 
@@ -27,7 +27,7 @@ You can use it as follows:
   >>> ds[key] = value  # store the array on the underlying HDF5 file
   >>> ds[key]  # retrieve the dataset from the HDF5 file
   <HDF5 dataset "data": shape (2, 2), type "<i8">
-  >>> ds[key].value # retrieve the array from the HDF5 file
+  >>> ds[key].value # retrieve the array from the dataset
   array([[1, 2], [3, 4]])
 
   >>> list(ds) # show the keys in the HDF5 file
@@ -36,13 +36,13 @@ You can use it as follows:
   [u'data']
 ```
 
-All of the regular features of a dictionary are available. The
+All of the regular methods of a Python dictionary are available. The
 DataStore is more than a wrapper of a HDF5 file, and actually it is
-able to persistent any pickleable Python object. In fact, the HDF5
+able to persist any pickleable Python object. In fact, the HDF5
 storage is used solely for numpy arrays, which however are the most
 common objects that need storing in the oq-lite calculators. You can
 see the full documentation of the datastore module at
-[docs.openquake.org](http://docs.openquake.org/oq-risklib/stable/).
+[docs.openquake.org](http://docs.openquake.org/oq-risklib/master/openquake.commonlib.html#module-openquake.commonlib.datastore).
 
 The important thing to remember is that *the datastore does not support
 concurrent writing*. This is due both to a limitation in the underlying
@@ -52,7 +52,7 @@ master/slave approach: only the master is allowed to read/write
 on the datastore, whereas *the workers do not have access
 to the datastore*. This paradigm makes everything simple and clean,
 so that the concurrent writing limitation simply disappear, since
-only the master can write and master is a single threaded process.
+only the master can write and the master is a single threaded process.
 
 The case of running concurrent calculations is managed in the simplest
 possible way: each time a datastore is instantiate a new directory is
@@ -71,7 +71,7 @@ directories and a new directory is created with calculation ID
 in multiuser situations there is no conflict since each user by default
 writes on its own home directory. Notice that at the moment the datastore
 does not offer any protection against race conditions and in theory 
-two different calculations could get the same calc_id. That may change
+two different calculations could get the same `calc_id`. That may change
 in the future. In practice, calculations are started manually, there
 are seconds between one and the next, so race conditions never
 happen.
@@ -86,24 +86,47 @@ from openquake.commonlib import readinput, datastore
 from openquake.hazardlib.calc.hazard_curve import hazard_curves_per_trt
 
 def compute_classical_psha(job_ini):
+    # read the configuration file
     oq = readinput.get_oqparam(job_ini)
+    # read the site collection
     sitecol = readinput.get_site_collection(oq)
+    # read the source model
     csm = readinput.get_composite_source_model(oq, sitecol)
+    # group the sources by tectonic region type ID
     sources_by_trt_id = groupby(csm.get_sources(),
                                 lambda src: src.trt_model_id)
+    # dictionary trt_id -> list of GSIMs
     gsims_assoc = csm.get_rlzs_assoc().get_gsims_by_trt_id()
+    # instantiate a new datastore
     dstore = datastore.DataStore()
+    # sequentially compute the curves for earch tectonic region type
     for trt_id, sources in sources_by_trt_id.iteritems():
+        trt = sources[0].tectonic_region_type
+        print 'Considering trt_id=%s, TRT=%s' % (trt_id, trt)
         gsims = gsims_assoc[trt_id]
+        # a list of curves, one for each GSIM
         all_curves = hazard_curves_per_trt(
             sources, sitecol, oq.imtls, gsims)
+        # saving the curves in the datastore
         for gsim, curves in zip(gsims, all_curves):
-            dskey = '/%s-%s' % (trt_id, gsim)
+            dskey = '/%s/%s' % (trt_id, gsim)
             print 'Saving %s' % dskey
             dstore[dskey] = curves
+            # flush the curves on the HDF5 file
+            dstore.flush()
     dstore.close()
     print 'See the results with hdfview %s/output.hdf5' % dstore.calc_dir
 ```
 
-The calculation here is sequential. Making it parallel is left for
-another post. Stay tuned!
+[hdfview](https://www.hdfgroup.org/products/java/hdfview/) is Java
+tool to visualize and edit HDF5 files (the advantages of using
+standard: we did not have to write it).
+
+Incidentally, let me point out that this ~20 line routine is
+essentially doing 90% of the work than in the original oq-engine was
+done in ~10000 lines of code (most of them spent in defining database
+tables that here are simply not needed) ~100 times less efficiently.
+
+The calculation here is sequential. Making it parallel requires just
+two more lines, but it is left for another post, to keep the
+suspense. Stay tuned!
