@@ -3,7 +3,7 @@ layout: post
 title: Introducing the DataStore (i.e. HDF5 rocks)
 ---
 
-As I said several times before in this blog, the single biggest
+As I said several times in this blog, the single biggest
 mistake in the architecture of the engine was the pervasive use of a
 relational database in numerical code. It should be obvious that
 performance-critical code cannot affort to wait for the
@@ -22,9 +22,9 @@ team has been wanting to use this format from day one, even if, for
 mysterious reasons, the original IT team never wanted to hear them.
 Personally I have never been doing any numeric-intensive code before
 coming to GEM, so HDF5 was unknown to me, but I was inclined to
-believe our scientists. In other words, HDF5 was my top priority as
+believe our scientists. Therefore HDF5 was my top priority as
 technology to replace PostgreSQL in the engine from the beginning.  However,
-it was clear to me that replacing the database would have been a major
+it was clear that replacing the database was a major
 effort, so instead on starting right away in that direction I spent
 two years of my life trying to come to terms with the database. After
 all, I had 7 years of experience with relational databases, and I was
@@ -55,10 +55,10 @@ at all: since it was originally meant for small computations, it could afford
 to keep everything in memory and to export everything in CSV. However,
 such an approach was not sustainable for large computations, especially
 for risk ones, when one wants to store the hazard results to avoid
-recomputing them every time a new calculation is started. In the
+recomputing them every time a new risk calculation is started. In the
 engine the hazard data is stored in the database: in oq-lite I needed
 a replacement for it. Since the hazard data were basically numpy arrays
-I needed an efficient storage for that, i.e. an HDF5 file. So a
+I needed an efficient storage for that, i.e. an HDF5 file. A
 couple of months ago I started to study the
 [h5py](http://docs.h5py.org/en/latest/) library, which allows to
 manage HDF5 files from Python. I liked this library from the first
@@ -73,7 +73,7 @@ that could be improved, but it is not difficult to work around that.
 In the Python world there is also another library working with
 HDF5 files, i.e. [PyTables](http://www.pytables.org/). PyTables does
 much more than h5py, and it is essential an ORM with an HDF5 backend
-instead than a database. I like h5py much more than PyTables, since
+instead than a database. I liked h5py much more than PyTables, since it
 is perfect for what I wanted to do with oq-lite: a storage facility
 that does not require a database and that *does not even resemble
 a database*. For the purpose of the GEM calculators the natural
@@ -89,7 +89,7 @@ the HDF5 file format is specialized to store arrays and has none of
 the transactional and concurrency features of a relational
 database. Incidentally, let me say that I strong believer in relation
 databases, I like Postgres a lot and I have a huge experience with it:
-it is the right tool for a lot of things, just not for
+it is the right tool for many things, just not for
 multidimensional composite arrays of floats spanning gigabytes. There
 it cannot compete with HDF5, nor in terms of performances nor in terms
 of simplicity of use.

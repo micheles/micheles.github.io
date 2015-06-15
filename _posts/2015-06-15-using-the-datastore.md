@@ -12,7 +12,7 @@ The values are basic data types i.e. integers, floats,
 strings, and arrays, which can be stored efficiently.
 You can learn the concepts about HDF5
 files [here](http://docs.h5py.org/en/latest/). The DataStore
-is a thin wrapper over a `h5py.File` object.
+is a wrapper over a `h5py.File` object.
 You can use it as follows:
 
 ```python
@@ -41,8 +41,7 @@ All of the regular methods of a Python dictionary are available. The
 DataStore is more than a wrapper of a HDF5 file, and actually it is
 able to persist any pickleable Python object. In fact, the HDF5
 file is used solely for numpy arrays, whereas general Python objects
-are save in the datastore directory as pickled files. However arrays are the most
-important objects that need storing in the oq-lite calculators, and the plan
+are saved in the datastore as pickled file. The plan
 for the future is to replace as much as possible Python objects with numpy
 arrays, which are much much more efficiently stored and moved around.
 You can see the full documentation of the datastore module at
@@ -60,25 +59,25 @@ only the master can write and the master is a single threaded process.
 
 The case of running concurrent calculations is managed in the simplest
 possible way: each time a datastore is instantiate a new directory is
-created and a HDF5 file called `output.hdf5` is created
-inside that directory. The location of the directory
-is determined by the environment variable $OQ_DATADIR. If the variable
-is not set, the datastore uses the directory $HOME/oqdata as base
-path for the datastore directories. When a DataStore is instantiated,
-the base directory is searched (it is automatically created if not found)
-and directories with names following the pattern `calc_<ID>` are retrieved.
-If nothing is found, a directory called `calc_1` is created
-and the datastore instance grows an attribute `calc_id` with value `1`;
-otherwise, the highest `calc_id` is retrieved from the found calculation
-directories and a new directory is created with calculation ID
-`calc_id + 1`. In this way each calculation writes in its own directory;
-in multiuser situations there is no conflict since each user by default
-writes on its own home directory. Notice that at the moment the datastore
-does not offer any protection against race conditions and in theory 
-two different calculations could get the same `calc_id`. That may change
-in the future. In practice, calculations are started manually, there
-are seconds between one and the next, so race conditions never
-happen.
+created and a HDF5 file called `output.hdf5` is created inside that
+directory. The location of the directory is determined by the
+environment variable $OQ_DATADIR. If the variable is not set, the
+datastore uses the directory $HOME/oqdata as base path for the
+datastore directories. When a DataStore is instantiated, the base
+directory is searched (it is automatically created if not found) and
+directories with names following the pattern `calc_<ID>` are
+retrieved.  If nothing is found, a directory called `calc_1` is
+created and the datastore instance grows an attribute `calc_id` with
+value `1`; otherwise, the highest `calc_id` is retrieved from the
+found calculation directories and a new directory is created with
+calculation ID `calc_id` + 1. In this way each calculation writes in
+its own directory; in multiuser situations there is no conflict since
+each user by default writes on its own home directory. Notice that at
+the moment the datastore does not offer any protection against race
+conditions and in theory two different calculations starting at the
+same time could get the same `calc_id`. That may change in the
+future. In practice, calculations are started manually, there are
+seconds between one and the next, so race conditions never happen.
 
 I will close this post with a short routine that performs a classical
 calculation and save the results in the datastore, so that you can
@@ -126,10 +125,11 @@ def compute_classical_psha(job_ini):
 tool to visualize and edit HDF5 files (the advantage of using
 standards: we did not have to write it).
 
-Incidentally, let me point out that this ~20=line routine is
+Incidentally, let me point out that this ~20-line routine is
 essentially doing 90% of the work than in the original oq-engine was
 done in ~10000 lines of code (most of them spent in defining database
-tables that here are simply not needed) ~100 times less efficiently.
+tables that here are simply not needed) ~100 times less efficiently,
+at least for what concerns the saving times.
 
 The calculation here is sequential. Making it parallel requires just
 two more lines, but it is left for another post, to keep the
