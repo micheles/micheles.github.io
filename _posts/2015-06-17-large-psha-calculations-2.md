@@ -3,7 +3,7 @@ layout: post
 title: Analyzing large PSHA hazard calculations (2)
 ---
 
-In a [previous post](/2015/06/17/large-psha-calculations) I explained
+In a [previous post](/2015/06/16/large-psha-calculations) I explained
 how the size of a computation (in terms of disk space occupation) can
 be computed. However, there is another measure which is critical when
 estimating the feasibility of a calculation: the amount of data
