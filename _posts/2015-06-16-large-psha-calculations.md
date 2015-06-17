@@ -4,7 +4,7 @@ title: Analyzing large PSHA hazard calculations (1)
 ---
 
 How big is a PSHA calculation? Will I be able to run it on my
-machine/cluster or will the calculation run out of memory? How much
+machine (or cluster) or will the calculation run out of memory? How much
 time will it take to run it to completion?  Such questions are clearly
 very relevant and are asked nearly every day by the OpenQuake Engine
 users. After all, the engine is engine is meant for state-of-the-art
