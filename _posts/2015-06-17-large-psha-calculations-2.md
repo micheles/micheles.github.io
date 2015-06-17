@@ -48,7 +48,7 @@ Estimated data to send forward: 577.91 KB
 Estimated data to send back: 31.74 MB
 ```
 
-The `-d` option (aka `--datatransfer) also estimates the data transfer
+The `-d` option (aka `--datatransfer`) also estimates the data transfer
 from the master to the slaves and back; the estimate is not perfect,
 the real numbers will be a bit bigger, but not much for large
 computations. Also notice that on another machine you could get
