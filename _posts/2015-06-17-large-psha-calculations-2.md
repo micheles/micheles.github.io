@@ -28,7 +28,7 @@ file (this is a new feature introduced yesterday; before it has to be
 specified in the openquake.cfg file, that required root permissions to
 be edited).  If the parameter is not specified, it is considered to be
 equal to 8 times the number of cores in the controller machine. This
-is a value which is fine for our cluster, but not in generale. You should
+is a value which is fine for our cluster, but not in general. You should
 always specify a `concurrent_tasks` parameter, and it should be large
 enough that all of your cores are used. 
 
