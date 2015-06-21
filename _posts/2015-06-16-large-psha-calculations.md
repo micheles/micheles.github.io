@@ -33,7 +33,7 @@ flux, because we work on the calculators all the time and they are subject
 to drastic changes, usually for the better. If a calculator becomes
 slower or more resource intensive it is likely a bug and should be reported.
 
-Having said that, let's try extract the most reliable information we
+Having said that, let's try to extract the most reliable information we
 can extract, i.e. the size of the generated output. Even that is not
 obvious in the engine, since the data is stored in several relational
 tables and it is difficult to estimate precisely how much disk space will
