@@ -79,6 +79,6 @@ situation is a bit of a mess.
 Also, it should be noted that the event based calculators work in a
 completely different way if sampling is enabled
 (`number_of_logic_tree_samples > 0`): actually, it would be better to
-consider them different calculators, since the calculation logic, performance
-figures and the outputs are quite different. So the 8 event based calculators
-should be counted as 16!
+consider them different calculators, since the calculation logic, the
+performance figures and the outputs are quite different. So the 8
+event based calculators should be counted as 16!
