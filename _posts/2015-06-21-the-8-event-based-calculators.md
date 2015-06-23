@@ -50,8 +50,8 @@ input, it requires the ruptures produced by the calculator #4.
 
 6. The new event loss table calculator.
 It does much more than calculator #3, because it is able to compute
-the ground motion fields on-the-fly (i.e. it has no need of calculator
-#5, which is there only for debugging and analysis purposes) but
+the ground motion fields on-the-fly (i.e. it has no need of calculator #5,
+which is there only for debugging and analysis purposes) but
 it produces much less outputs. At the moment it only computes
 the event loss table; nevertheless, its feature set is growing. This
 calculator does not need the database and saves the event loss table
