@@ -81,4 +81,4 @@ completely different way if sampling is enabled
 (`number_of_logic_tree_paths > 0`): actually, it would be better to
 consider such a case as a different calculator, since the performance
 figures and the outputs are quite different. So the 8 event based calculators
-should be counted as 16 calculators!
+should be counted as 16!
