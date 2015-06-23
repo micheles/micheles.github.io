@@ -75,3 +75,10 @@ possible to remove the old calculators and probably we will be down to
 only 4 calculators (I say probably because new variations of the event
 based calculator could appear). Unfortunately, for the moment the
 situation is a bit of a mess.
+
+Also, it should be noted that the event based calculators work in a
+completely different way if sampling is enabled
+(`number_of_logic_tree_paths > 0`): actually, it would be better to
+consider such a case as a different calculator, since the performance
+figures and the outputs are quite different. So the 8 event based calculators
+should be counted as 16 calculators!
