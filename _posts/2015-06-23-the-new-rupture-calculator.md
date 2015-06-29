@@ -6,7 +6,7 @@ title: The new rupture calculator
 In a [previous post](/2015/06/21/the-8-event-based-calculators/) I listed
 the event based calculators available in the engine. Here I will discuss
 in more detail the calculators #1 and #2, i.e. the old and the new
-rupture calculator. Both calculators read the source model and produce
+rupture calculators. Both calculators read the source model and produce
 ruptures; they both use the same algorithm; however the old calculator saves the
 ruptures on a Postgres database (as pickled Python objects stored in a
 text field), whereas the new calculator saves the ruptures directly
@@ -40,7 +40,7 @@ Notice that `total compute_ruptures` computes the ruptures and also filters
 them, so the 197s of the new calculator should be compared with the
 141 + 78 = 219s of the old one. So we acheaved a slight improvement
 of the calculation time too; but the selling point of the new calculator
-is the spectacular speedup in the saving time, from 684s to 5 s, over
+is the spectacular speedup in the saving time, from 684s to 5s, over
 two orders of magnitude!
 
 The speedup can be seen even in other computations. For instance,
