@@ -55,4 +55,4 @@ has a lot of sites and you want to save the ground motion field
 on all sites, that part will certainly dominate the computation time.
 In other words, it is a lot more important to speed up the saving
 time of the GMFs rather than the saving time of the ruptures.
-For that, you need [the new GMFs calculator]().
+For that, you need [the new GMFs calculator](/2015/06/24/the-new-gmf-calculator/).

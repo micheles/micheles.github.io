@@ -22,7 +22,7 @@ from a database half empty and with the parameter `concurrent_tasks`
 set to 1000:
 
 Operation              | Cum. Time| Memory
------------------------|------------------
+-----------------------|----------|--------
 computing gmfs         | 9,348 s  | 80 MB
 saving gmfs 	       | 13,119 s | 28 MB
 
@@ -33,7 +33,7 @@ dozens of times bigger than the calculation time. Still, with the
 new calculators the numbers are much better:
 
 Operation              | Cum. Time| Memory
------------------------|-------------------
+-----------------------|----------|--------
 computing gmfs         | 4,450 s  | 1 MB
 saving gmfs 	       | 11 s     | 0.19 MB
 
@@ -130,7 +130,7 @@ In reality it is insanely fast. But let me first show the
 numbers for the computation times:
 
 Operation              | Cum. Time| Memory
------------------------|-------------------
+-----------------------|----------|---------
 computing gmfs (old)   | 3,769 s | 29 MB
 computing gmfs (new)   | 2,375 s | 0.73 MB
 
