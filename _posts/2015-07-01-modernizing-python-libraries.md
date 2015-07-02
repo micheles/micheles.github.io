@@ -16,12 +16,12 @@ soon or later we will have to address the issue, because
 some users will start using Python 3 and will ask for support.
 After all, some Python distribution are starting to ship Python 3
 as default and [Ubuntu 16.04 may be amongst them](
-https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-16.04-Python-Plans)
+https://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-16.04-Python-Plans).
+This is important for us since it will be our next release of reference.
 
 The good thing is that during the two years of my sleep everything changed
 for what concerns Python 2->3 strategy plans: and it changed for the better.
-
-*Nowadays, there is no need to migrate to Python 3 anymore, if by
+*Nowadays, there is no need to migrate to Python 3, if by
 migration we mean abandoning Python 2: on the contrary, we can
 still use Python 2 and have the same code run on Python 3 too!*
 
@@ -81,7 +81,7 @@ up front. This guarantees that the code base stay clean and Python
 For the moment we do not plan to migrate to Python 3, so it is enough
 to modernize our basic libraries (what is needed for oq-lite and
 nothing more) and to check for Python 3 syntactic correctness: that
-means that it is enough to run `python3 -m py_compile` on all the modules.
+means that it is enough to run `python3 -m py_compile` on all of the modules.
 That will force our contributors to be Python 3-aware, and will be
 useful as a training exercise. 
 
@@ -120,4 +120,4 @@ the tests. I have already seen that the tests of hazardlib do not
 run out of the box, even if the syntax is Python 3 valid, but that's normal,
 since there have been changes in the semantic. Since I did not write
 hazardlib, fixing broken tests may not be the easiest things in the
-world, but that's life. We will see when we will reach that point.
+world, but that's life. We will see how it goes when we will reach that point.
