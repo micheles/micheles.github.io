@@ -32,8 +32,6 @@ about Turkey, that could not be performed in the past, but which is
 easy with the new ebr calculator. The calculation has the following
 parameters:
 
-Parameter       | Value
-----------------|---------
 num_assets      | 10,626
 num_sites       | 927
 num_realizations| 192
@@ -43,15 +41,13 @@ to give you an idea of the time that was wasted there, here are
 some numbers, in a situation with a database half-empty and with
 2048 tasks:
 
-Operation              | Cum. Time
------------------------|----------
 computing gmfs         | 35,125 s
 saving gmfs 	       | 1,070,300 s
 
 As you see, the saving time is 30 times bigger than the computation
 time.  This already should tell you that saving the GMFs in the
 database is a bad idea; also *the database size increased by 207
-GB!*. That means that it is very easy to run out of disk space: also,
+GB!* That means that it is very easy to run out of disk space: also,
 the bigger the database, the slower the queries. Indeed, the real
 problem is not the saving time, nor the database size, it is the
 reading time: *the reading time is infinite*! By that, I mean that it
@@ -76,7 +72,7 @@ computing individual risk | 7,633 s| 163 M
 getting hazard | 203,076 s| 59 M
 
 As you see, the computation is still dominated by the reading time from
-the database, 552,267 cumulative seconds, which is 69 times slower than
+the database, 203,076 cumulative seconds, which is 27 times slower than
 the calculation time. This just for a single realization: for the full
 computation the reading time would have been much longer, more than
 192 times more, since in such conditions of high stress the performance
@@ -99,8 +95,8 @@ years ago. Users have complained about this situation for over a year.
 The problem was that in order to solve this we had to essentially rewrite
 the architecture of the engine.
 
-*Actually, to throw away the engine and to rewrite from scratch the
-event based calculator would have been much simpler than what we did.*
+To throw away the engine and to rewrite from scratch the
+event based calculator would have been much simpler than what we did.
 For over a year we tried to cope with the existing architecture, doing
 a lot of improvements, but last summer it become clear that a total
 revolution was needed. So we started the oq-lite project, we rewrote
@@ -125,7 +121,7 @@ Total run time + export   | 3h 15m | estimated ~200 hours
 
 Basically, recomputing the GMFs on-the-fly is more than 1000 times
 more efficient than reading them from the database. The memory
-consumption is over 20 times smaller. Also, the required
+consumption is over 20 times smaller. The required
 disk space is more than 100 times smaller.
 
 In short, the impossible is now possible.
