@@ -5,7 +5,7 @@ title: New generation calculators: the ebr calculator
 
 The release 1.5 of the OpenQuake engine will bring with it the first
 of a new generation of calculators: the ebr (short for event based
-risk) calculator. The new generation calculators will be based on the
+risk) calculator. The new generation calculators will be [based on the
 datastore](/2015/06/14/introducing-the-datastore/), not on Postgres,
 and they will not distinguish between hazard and risk. In other words,
 it will be possible to use a *single configuration file specifying
