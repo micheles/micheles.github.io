@@ -29,14 +29,15 @@ of years. Originally it was integrated in the event based hazard
 calculator. This calculator could be split in two, since the
 hazard curves functionality could be extracted.
 
-3. *The old risk calculator.*
-This is a calculator which is able to process the GMFs
-produced by calculator #2 and to produce risk results. It has been in the
-engine for several years, having experienced several refactorings to
-simplify the database queries and to reduce the time spent to retrieve
-the GMFs and the needed memory. Still, it performance it so poor
-that a new revolutionary approach that does not need to read the
-GMFs has been implemented in calculator #6.
+3. *The old risk calculator.* This is a calculator which is able to
+process the GMFs produced by calculator #2 and to produce risk
+results. It has been in the engine for years, having experienced
+several refactorings to simplify the database queries and to reduce
+the time spent to retrieve the GMFs and the needed memory. In this
+way, its performance has been substantially improved over time: still,
+it is too poor for large scale calculations. For this reason a new
+revolutionary approach that does not need to read the GMFs has been
+implemented in calculator #6.
 
 4. *The new rupture calculator.*
 It does the same job than calculator #1, but it stores the ruptures
