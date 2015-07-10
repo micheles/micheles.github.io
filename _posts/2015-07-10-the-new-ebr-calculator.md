@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New generation calculators: the ebr calculator
+title: The new ebr calculator
 ---
 
 The release 1.5 of the OpenQuake engine will bring with it the first
