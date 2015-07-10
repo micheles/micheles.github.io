@@ -32,6 +32,7 @@ about Turkey, that could not be performed in the past, but which is
 easy with the new ebr calculator. The calculation has the following
 parameters:
 
+Number          | Value
 ----------------|-------
 num_assets      | 10,626
 num_sites       | 927
@@ -42,6 +43,7 @@ to give you an idea of the time that was wasted there, here are
 some numbers, in a situation with a database half-empty and with
 2048 tasks:
 
+Operation              | Cum. Time
 -----------------------|-----------
 computing gmfs         | 35,125 s
 saving gmfs 	       | 1,070,300 s
