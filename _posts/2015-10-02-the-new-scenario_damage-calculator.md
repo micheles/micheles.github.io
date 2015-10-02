@@ -4,7 +4,7 @@ title: The new scenario damage calculator
 ---
 
 We are now ready to replace the old postgres-based scenario damage calculator
-with a new HDF5-based calculator. The only thing left is a performance
+with the new HDF5-based calculator. The only thing left is a performance
 analysis for large calculations, to make sure that there are no
 regressions. To this aim, I have analyzed the case of the largest
 scenario damage calculation I have at hand: Portugal onshore with 268,056
@@ -17,8 +17,8 @@ scenario hazard: from 17 minutes to 1.7 minutes
 
 A scenario_damage calculation requires the ground motion fields to be
 computed first; this is done by the scenario hazard calculation.
-While the GMFs computation is quite fast (at the end there are
-only 4050 sites and 3000 realizations) the postgres-based calculator
+While the GMFs computation is quite fast (there are
+only 4,050 sites and 3,000 realizations) the postgres-based calculator
 is plaged by a number of inefficiencies. A lot of the time
 is spent during startup while saving the assets and the sites in the database,
 and then a lot of time is spent saving the GMFs in the database.
@@ -88,11 +88,10 @@ took 2,171 cumulative seconds (which is very little, divided by
 database took 2,201 seconds (again little) and now is essentially
 zero since saving in the datastore is thousand of times faster.
 
-Those are minor speedups, so the runtime did not change
-significantly, but once we improve the task distribution
-there will be a more significant change. Right now the cumulative
-time for the calculation in the workers is of 879,914 seconds;
-divided by 256 cores it means 57 minutes, so if we had perfect
-distribution of the load the computation should run in 1 hour
-or so. This is the lower limit we can reach with the current
-risk algorithm, which is the same between the old and new calculator.
+Those are minor speedups, so the runtime did not change significantly
+and it is not easy reduce it. Right now the cumulative time for the
+calculation in the workers is of 879,914 seconds; divided by 256 cores
+it means 57 minutes, so if we had perfect distribution of the load the
+computation should run in 1 hour or so. This is the lower limit we can
+reach with the current risk algorithm, which is the same between the
+old and new calculator.
