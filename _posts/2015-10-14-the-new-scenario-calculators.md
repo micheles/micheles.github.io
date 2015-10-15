@@ -38,18 +38,21 @@ only the assets within the region, so even if the exposure is very
 large you do not need to keep in memory all of it. You still need
 to parse all of it and to apply the region constraint to all of the
 assets, but this is fast, much faster than the subsequent risk computation.
-Therefore the suggested workflow has been reduced to single step:
+In the near future we will make it possible to compute hazard and risk
+together, in a single step
 
 1. run `$ oq-engine --run job.ini`
 
 where `job.ini` is a file obtained by merging together the `job_hazard.ini`
-and ``job_risk.ini` files.
+and ``job_risk.ini` files. Right now this is supported for the event based
+calculator but not yet for the scenario calculators.
 
-It should be noticed that the *old mechanism has not been removed*: you
-can still use it. This is necessary for backward compatibility, since we
-do not want to force the users to change files that worked in the past.
+It should be noticed that the *old mechanism will not be
+removed*. This is necessary for backward compatibility, since we do
+not want to force the users to change files that worked in the past.
 Therefore if you run `$ oq-engine --run job.ini --hc <hc_id>` you can
-still re-use the hazard of a previous computation, if you wish to do so.
+still re-use the hazard of a previous computation, if you wish to do
+so.
 
 The second difference with respect to the past, is that the ``--load-gmf``
 option has been removed. In the past an user who wanted to run a scenario
