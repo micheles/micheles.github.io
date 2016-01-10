@@ -48,9 +48,9 @@ rounding issues, the effect is small but still it may break all of your
 tests unless you are very careful.
 
 3. for event based calculations the sampling of the ruptures
-*depends on the splitting*: we need to set a seed on each split source
-to ensure independence from the parallelization details and with
-different seeds one samples different ruptures.
+*depends on the splitting*: this seems to be an artifact of the current
+implementation and I am still working to see if it is possible to
+remove such dependence.
 
 Here I want to focus in detail on the second issue and I will give
 an example where the problem is manifest. Consider our hazard demo
@@ -64,9 +64,7 @@ curves or not? And what if we changed the `area_source_discretization`
 parameter and split in a different number of sources?
 
 The answer is that the hazard curves are slightly different. I will
-give now a script that you can use to investigate the splitting-dependency,
-with the disclaimer that it only works with
-https://github.com/gem/oq-risklib/pull/614, i.e. with the new engine.
+give now a script that you can use to investigate the splitting-dependency.
 
 ```python
 from openquake.commonlib import readinput, datastore, sourceconverter
