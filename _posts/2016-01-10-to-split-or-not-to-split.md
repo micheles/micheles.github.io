@@ -47,6 +47,11 @@ unfeasible: it will just break.
 rounding issues, the effect is small but still it may break all of your
 tests unless you are very careful.
 
+3. for event based calculations the sampling of the ruptures
+*depends on the splitting*: we need to set a seed on each split source
+to ensure independence from the parallelization details and with
+different seeds one samples different ruptures.
+
 Here I want to focus in detail on the second issue and I will give
 an example where the problem is manifest. Consider our hazard demo
 `AreaSourceClassicalPSHA`. This is a case with a single area source.
