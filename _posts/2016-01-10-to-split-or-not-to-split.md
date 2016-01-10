@@ -102,7 +102,7 @@ To run it, just edit the path to the `AreaSourceClassicalPSHA` demo.
 The output will be a couple of HDF5 files. The first one will contain
 the hazard curves in the case of no splitting, the second on the
 hazard curves in the case of splitting. For instance, considering
-the first site and the first intensity measure type you will get
+the first site and the first intensity measure type (PGA) you will get
 the following numbers:
 
 IML     | poe no-split          | poe split
@@ -135,7 +135,9 @@ parallelizing may introduce different errors: even an operation as
 trivial as the sum can give issues in a parallel environment, since
 `a + b + c` can be different from `a + c + b` if the floating point
 variables `a`, `b` and `c` comes from different tasks and the order of
-the tasks is not specified.
+the tasks is not specified. This is very visible when using 32 bit
+floating point numbers and it is the reason why we are still using 64 bit
+numbers for the hazard curves.
 
 The lesson learned is that the tests must have a tolerance
 high enough to be insensitive to the splitting issue.
