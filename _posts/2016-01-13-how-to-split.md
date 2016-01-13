@@ -9,7 +9,7 @@ and that for for event based calculations the sampling of the ruptures
 depends on the splitting. The first effect is very minor and we can cope with
 it. The second effect is more annoying, but fortunately there is a way
 to to remove the splitting dependency by modifying the
-EventBasedRuptureCalculator logic.
+rupture sampling logic.
 
 The problem is that at the moment (i.e. in release 1.7) we generate a
 random seed per each source: if a source is split more seeds are
@@ -47,7 +47,7 @@ rupture, starting from the `random_seed` defined in the `job.ini` file:
 src.seeds = oq.random_seed + numpy.arange(src.num_ruptures)
 ```
 
-Then we make sure that when the source is split its sub-sources get the
+Then we make sure that when the source is split, its sub-sources get the
 same seeds and in the same order; this is done with the code
 
 ```python
