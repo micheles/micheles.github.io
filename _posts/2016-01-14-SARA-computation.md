@@ -14,11 +14,11 @@ old tiling calculator it took 1 day, 10 hours and 43 minutes to run,
 i.e. 2083 minutes. The most expensive computation was computing the
 probabilities of exceedance, with over 11 million of cumulative seconds:
 
-computing poes: 11,041,287 s
+`computing poes`: 11,041,287 s
 
 For comparison, the time spent in making contexts was 27 times smaller:
 
-making contexts: 401,699 s
+`making contexts`: 401,699 s
 
 The computation had only 2 tiles, but this is case where we could not
 generate many tiles, otherwise the time needed to manage the source
@@ -26,7 +26,7 @@ model would have killed the performance. Already with 2 tiles we spent
 over 11,000 sequential seconds just to read, filter, split and send
 the sources, i.e. over 3 hours.
 
-initialize sources: 11,303 s
+`initialize sources`: 11,303 s
 
 In this calculation the parameter `concurrent_tasks` was not touched,
 so the default of 256 was used and with two tiles 484 tasks were
@@ -34,17 +34,17 @@ generated.
 
 With the new tiling calculator the figures changed as follows:
 
-concurrent_tasks: 4,295
+`concurrent_tasks`: 4,295
 
-number of tiles: 51
+`number of tiles`: 51
 
-computing poes: 9,077,264 s
+`computing poes`: 9,077,264 s
 
-making contexts: 474,483 s
+`making contexts`: 474,483 s
 
-managing the sources: 2,377 s
+`managing sources`: 2,377 s
 
-reading composite source model: 350 s
+`reading composite source model`: 350 s
 
 As you see, `making contexts` takes a bit more time than before: the reason
 is that now there are a lot more tasks, 4,295 instead of 484. Having more
@@ -56,12 +56,12 @@ the reason is now we have a lot of small tiles (51) and it is more
 efficient to compute the PoEs with shorter arrays. This is the reason
 why the ratio computing poes / making contexts is decreasing:
 
-ratio computing poes / making contexts = 19 (it was 27)
+`ratio computing poes / making contexts` = 19 (it was 27)
 
 Also, we are saving a lot of time in `initialize sources` since the
 new calculator does not need to read again the same source model once
 per tile, it reads it just once (in 350 s). There is still time spent in
-the operation `managing the sources` that includes filtering,
+the operation `managing sources` that includes filtering,
 splitting and sending the sources to the workers (2,377 s).
 
 From such figures, it does not look like the new calculator it is much
@@ -69,7 +69,7 @@ better from the old one: but the reality is that it is a lot better,
 since the task distribution is a very uniform. So the total runtime
 went down from 2083 minutes to 762 minutes, a speedup of nearly three times:
 
-Total speedup factor: 2.7x
+`Total speedup factor`: 2.7x
 
 Before, most of the time was spent waiting, now it is not the case anymore.
 If you consider that 10 million of cumulative seconds split in 256 cores
