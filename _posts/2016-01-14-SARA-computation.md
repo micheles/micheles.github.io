@@ -35,10 +35,15 @@ generated.
 With the new tiling calculator the figures changed as follows:
 
 concurrent_tasks: 4,295
+
 number of tiles: 51
+
 computing poes: 9,077,264 s
+
 making contexts: 474,483 s
+
 managing the sources: 2,377 s
+
 reading composite source model: 350 s
 
 As you see, `making contexts` takes a bit more time than before: the reason
@@ -55,13 +60,13 @@ ratio computing poes / making contexts = 19 (it was 27)
 
 Also, we are saving a lot of time in `initialize sources` since the
 new calculator does not need to read again the same source model once
-per tile, it reads it just once (in 350s). There is still time spent in
+per tile, it reads it just once (in 350 s). There is still time spent in
 the operation `managing the sources` that includes filtering,
-splitting and sending the sources to the workers.
+splitting and sending the sources to the workers (2,377 s).
 
 From such figures, it does not look like the new calculator it is much
 better from the old one: but the reality is that it is a lot better,
-since the task distribution is a lot more uniform. So the total runtime
+since the task distribution is a very uniform. So the total runtime
 went down from 2083 minutes to 762 minutes, a speedup of nearly three times:
 
 Total speedup factor: 2.7x
@@ -87,4 +92,5 @@ the number of tasks by decreasing the parameter `concurrent_tasks`.
 The time needed to combine the curves and to compute the statistics
 is negligible (a couple of minutes) because the logic tree is small.
 The time to save the hazard curves is also insignificant, whereas
-in the old computation it was around 25 minutes.
+in the old computation it was around 25 minutes. The improvement
+here is related to having removed the database.
