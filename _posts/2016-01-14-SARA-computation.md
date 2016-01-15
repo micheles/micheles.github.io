@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The SARA calculation: before and after
+title: The SARA calculation before and after
 ---
 
 In this post I will document the performance improvements of the
