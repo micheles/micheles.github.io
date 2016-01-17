@@ -75,7 +75,10 @@ number of tasks: 463
 
 The difference is in `making contexts` is more apparent than real,
 since the oq-lite calculator measure less operations than the engine
-calculator for this operation. The message to bring home is that
+calculator for this operation (technically it does not measure
+the time spent in .iter_ruptures).
+
+The message to bring home is that
 *unless you have a lot of data to save you should not expect
 significant improvements with respect to the time-honored engine
 calculator*.
@@ -109,11 +112,15 @@ As you see, there is an enormous improvements for `computing poes` (as
 speedup of ~28 times) and a significant speedup for `making contexts`
 (2.1 x). The other operations are compatible with the non-tiled ones
 and not relevant. Still there are no miracles, and the runtime of
-`computing poes` and `making contexts` are compatible with the old
+`computing poes` and `making contexts` are compatible with the engine
 tiling calculator with 17 tiles. The advantage is in the task
 distribution, which is better, and in the saving times. That explains
 while the total runtime is 219 m, to be compared with the 255 m of the
 old calculator. Still, it is not a revolutionary improvement.
+
+The important point to notice here is that *with the default parameters
+the oq-lite calculator is competitive (and usually better) than
+then old engine tiling calculator with a careful tuning*.
 
 Using 500 tiles
 -------------------------
@@ -140,4 +147,7 @@ number of tasks: 4,500
 
 As you see, everything has become inefficient. There are too many small
 tasks, and over 50 GB of data have to be transferred to the workers.
-Having so many tiles is definitively a bad idea.
+Having so many tiles is definitively a bad idea. Still, the oq-lite
+calculator is much better than the engine one, because with that one
+we would have spent ~20 hours just in processing the source model for
+500 times!

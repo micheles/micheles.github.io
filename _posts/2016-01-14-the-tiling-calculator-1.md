@@ -94,22 +94,18 @@ two reasons for that.
 (https://github.com/gem/oq-risklib/blob/master/doc/effective-realizations.rst):
 the tiles are such that some tectonic region types are filtered away
 and the logic trees becomes much smaller, so a lot less computations
-are needed. For the same reason the ratio computing poes / making contexts
-is greatly reduced, from 15 to 3.
+are needed.
 
 2. Even if the logic tree is not reduced, it is a lot faster to compute
 the PoEs (that involves a lot of matrix multiplications) by splitting
 in small tiles.
 
 I should also be noticed that `making contexts` takes half the time than
-before. The reason is that this operation in the oq-lite calculators
-performs something slightly different (technically it does not measure
-the time spent in .iter_ruptures) than the old engine calculator. This is
-not an improvement due to the tiling. On the other hand, combining and
-saving the curves now is twice as fast exactly because of tiling and
-logic tree reduction.
+before and the same can be for combining and
+saving the curves. The ratio computing poes / making contexts
+is greatly reduced, from 15 to 3.
 
-Also, it should be noticed that a lot more tasks are generated: 1807
+A lot more tasks are generated: 1807
 instead of 463. The reason is that with `concurrent_tasks = 500` we
 are going to generated around 500 tasks per tile and since there are 4
 tiles we are going to generate 4 times more tasks.
