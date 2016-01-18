@@ -57,7 +57,7 @@ Single tile
 
 Before running the tiling calculator, for sake of comparison I run a test
 with a single tile. Then the computation is expected to be a lot slower
-since the tile is so big. Indeed, with 2,000 tasks
+since the tile is so big. Indeed, with `concurrent_tasks=2000`
 it takes 14 hours and 27 minutes and the data transfer is huge, over
 100 GB, at the limits of rabbitmq:
 
@@ -71,16 +71,17 @@ combine/save curves| 12 s
 total run time     | 867 m
 
 number of tasks: 2016
+
 data transfer: 21.78 GB sent, 137.39 GB received
 
 The reason for the huge data transfer from the controller node to the
-workers is that the site collection is large (11 MB) and we are transferring
-it 2016 times. This is dominating factor, since the sources are small in
-size compared to a site collection with half million sites. When tiling
-is enabled the opposite is true, since the site collection is split and
-so a lot less data in transferred there, whereas the sources are send
-multiple times and then the sources are the objects dominating the
-data transfer.
+workers is that the site collection is large (11 MB) and we are
+transferring it 2016 times. This is dominating factor, since the
+sources (divided in 2016 blocks) are small in size compared to a site
+collection with half million sites. When tiling is enabled the
+opposite is true, since the site collection is split and so a lot less
+data in transferred there, whereas the sources are send multiple times
+and then the sources are the objects dominating the data transfer.
 
 For what concerns the data transfer from the workers back to the controller
 node, this is a case with 481,401 sites, 19 levels and 8 bytes for each
@@ -104,6 +105,7 @@ combine/save curves| 14 s
 total run time     | 86 m
 
 number of tasks: 1100
+
 data transfer: 2.28 GB sent, 3.01 GB received
 
 As you see the results are impressively better. The ratio 
@@ -141,6 +143,7 @@ combine/save curves| 14 s
 total run time     | 72 m
 
 number of tasks: 1358
+
 data transfer: 7.18 GB sent, 0.98 GB received
 
 The ratio `computing poes/making contexts` is now down to 0.92 and the
