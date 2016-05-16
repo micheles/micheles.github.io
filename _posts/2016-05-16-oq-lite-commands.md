@@ -18,7 +18,7 @@ The first and most important one is the `help` command, which at
 the moment looks like this:
 
 ```bash
- $ oq-lite help
+$ oq-lite help
 usage: oq-lite [-v]
                    {upgrade_nrml,purge,reduce,tidy,show,export,show_attrs,run,info,plot,help}
                    ...
@@ -190,7 +190,7 @@ optional arguments:
 
 `oq-lite purge` allows to remove old datastores.
 
-```
+```bash
 $ oq-lite purge -h
 usage: oq-lite purge [-h] calc_id
 
