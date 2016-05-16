@@ -54,7 +54,7 @@ a computation. You should run it *before* running the computation
 since it will give you a lot of useful information.
 
 ```bash
-$ oq-lite info -h
+$ oq-lite help info
 usage: oq-lite info [-h] [-c] [-g] [-v] [-r] [input_file]
 
 positional arguments:
@@ -129,6 +129,7 @@ optional arguments:
 already run.
 
 ```bash
+$ oq-lite help show
 usage: oq-lite show [-h] what [calc_id]
 
 Show the content of a datastore (by default the last one).
