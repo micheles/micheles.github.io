@@ -78,7 +78,7 @@ Intensity Models (GSIMs), implemented in our hazard library (hazardlib).
 the engine. They are calculator-dependent and can be used in conjunction
 with the `oq-lite show` command, as we will document later on.
 
-`oq-lite info --views` gives the full list of available exporters.
+`oq-lite info --exports` gives the full list of available exporters.
 Most of them are calculator specific.
 
 `oq-lite info job.ini` prints information about the logic tree of
