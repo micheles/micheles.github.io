@@ -88,7 +88,7 @@ is very fast. The price to pay is that it does not filter the sources
 of the source model depending on the sites, so it may produce a
 logic tree larger than the one that would be effectively used.
 
-`oq-lite info job.ini` prints a lot more information. It is slow, but
+`oq-lite info --report job.ini` prints a lot more information. It is slow, but
 still much faster than doing the full computation. Since it filters
 the sources, it produces accurate information about the logic
 tree that would be used by the full computation. In the case of an event
@@ -223,4 +223,3 @@ optional arguments:
   -h, --help     show this help message and exit
   -d, --dry-run  test the upgrade without replacing the files
 ```
-
