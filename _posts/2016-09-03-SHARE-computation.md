@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recent progress in the classical PSHA calculator (SHARE)
+title: Recent progress in the classical PSHA calculator
 ---
 
 The OpenQuake engine has always been about large calculations: however, now
@@ -27,19 +27,22 @@ than expected, but the computation could not be done, again :-(
 In order to understand the issue, let me give some numbers; the SHARE
 computation has
 
+```
 number of hazard sites N = 126,044
 number of hazard levels L = 312
 number of realizations R = 3,200
+```
 
 Using 8 bytes per float the sheer size of the generated hazard curves
 is 8 * N * L * R = 938 GB i.e. nearly 1 terabyte of data. This is not
 much, the issue was that in order to compute mean and quantiles of the
 hazard curves the engine had to keep all of the curves in memory at
-the same time and we do not have 1 terabyte of memory!  I was very
-aware of this issue, that only affects really large computations:
-SHARE is the only one we have at the moment that it is large enough to
-run into this problem. For this reason I did not stop the release of
-engine 2.0 and postponed the solution of the memory issue to engine 2.1.
+the same time and we do not have 1 terabyte of memory!
+I was very aware of this issue, that only affects really large
+computations: SHARE is the only one we have at the moment that it is
+large enough to run into this problem. For this reason I did not stop
+the release of engine 2.0 and postponed the solution of the memory
+issue to engine 2.1.
 
 The good news is that the issue is now solved: by using
 the current master you can run the full SHARE to completion by using
@@ -121,6 +124,6 @@ but it is half of the time needed for our model of South America.
 SHARE is not a large computation anymore: the point to bring home
 is that
 
-`nowadays the full SHARE with 3200 realizations runs in 9 hours 30 minutes*
+*nowadays the full SHARE with 3200 realizations runs in 9 hours 30 minutes*
 
 And that's all.
