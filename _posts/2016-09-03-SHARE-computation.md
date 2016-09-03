@@ -71,9 +71,9 @@ calculator than the computation of the probability maps. This means that
 *you can change the quantiles in the job.ini file and recompute the
 statistics without having to repeat the full computation!*
 
-This has been a much wanted features for years and has been implemented
-in engine 2.0. Since the memory problem has been solved, now you can take
-full advantage of it. It should also be noticed that the engine has a flag
+This has been a much wanted feature for years. Since the memory
+problem has been solved, now you can take full advantage of it. It
+should also be noticed that the engine has a flag
 
 `individual_curves=false`
 
@@ -124,6 +124,6 @@ but it is half of the time needed for our model of South America.
 SHARE is not a large computation anymore: the point to bring home
 is that
 
-*nowadays the full SHARE with 3200 realizations runs in 9 hours 30 minutes*
+*nowadays the full SHARE with 3200 realizations runs in 9 hours 30 minutes.*
 
 And that's all.
