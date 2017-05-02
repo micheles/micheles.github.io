@@ -41,7 +41,7 @@ manual and they do not know about this flag.  Also, since now we have
 a web frontend to the engine (the WebUI) any user clicking on the link
 to download the hazard curves will start a full export taking
 hours/days and producing hundreds of gigabytes of data. The export may
-even kill the server and the result will be to big to download anyway.
+even kill the server and the result will be too big to download anyway.
 
 The solution
 ----------------
