@@ -23,10 +23,12 @@ hours in our cluster. Still, even if the core computation is small for today
 standards, the output generation part is still huge and challenging.
 Here are the figures:
 
+```
 number of hazard sites N = 126,044
 number of hazard levels L = 312
 number of realizations R = 3,200
 size of the hazard curves using 32 bit floats: 4 * N * L * R = 469 GB
+```
 
 As it is now, by default the engine produce all of the hazard curves
 and the time spent ther is longer than the time to perform the core
