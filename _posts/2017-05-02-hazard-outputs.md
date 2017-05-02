@@ -51,7 +51,7 @@ starting from release 2.4 the engine will only export the statistical
 outputs. There will be no way to export the full outputs from the WebUI
 with the single call: you will have to export one realization per call.
 It will be possible to export all of the realizations with a
-single call, but only from the command-line interface, locally, with the command
+single call only from the command-line interface, locally, with the command
 
 ```
 $ oq export hcurves/all
