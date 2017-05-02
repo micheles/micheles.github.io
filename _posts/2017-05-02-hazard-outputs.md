@@ -68,11 +68,12 @@ Here is a trivial example that should get you started:
 >>> from openquake.commonlib import datastore, calc
 >>> dstore = datastore.read(42)  # assuming 42 is the calculation ID
 >>> imtls = dstore['oqparam'].imtls  # intensity measure types and levels
->>> sitecol = dstore['sitecol']  # the site collection
+>>> sitecol = dstore['sitecol']  # site collection
+>>> nsites = len(sitecol)  # total number of sites
 >>> pgetter = calc.PoesGetter(dstore)  # instantiate the getter
 >>> for rlz in pgetter.rlzs:
 ...    # extract the curves for the given sites and realization
-...    print(pgetter.get(sitecol.sids, rlz.ordinal).convert(imtls))
+...    print(pgetter.get(sitecol.sids, rlz.ordinal).convert(imtls, nsites))
 ```
 
 will print the hazard curves for each realization as a composite array of N
