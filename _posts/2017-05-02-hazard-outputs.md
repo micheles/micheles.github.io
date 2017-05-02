@@ -3,7 +3,7 @@ layout: post
 title: Changes in the hazard outputs
 ---
 
-In the few last years the engine has become more and more
+In the last few years the engine has become more and more
 efficient. Nowadays it is so powerful that design decisions that were
 reasonable 7 years ago are now questionable. In particular, as we
 scale up the size of our computations, the management of the hazard
@@ -39,7 +39,7 @@ requires 3200 times less space, i.e. only 150 MB. Unfortunately,
 regular users do not read the fine points of the manual and they do
 not know about this flag.  Also, since now we have a web frontend to
 the engine (the WebUI) any user clicking on the link to download the
-hazard curves will start a full export procedure taking hours/days and
+hazard curves will start a full export taking hours/days and
 producing hundreds of gigabytes of data. The export may even kill the
 server and the result will be to big to download anyway.
 
@@ -50,7 +50,7 @@ For this reason we are changing the behaviour of the engine:
 starting from release 2.4 the engine will only export the statistical
 outputs. There will be no way to export the full outputs from the WebUI
 with the single call: you will have to export one realization per call.
-It will still be possible to export all of the realizations with a
+It will be possible to export all of the realizations with a
 single call, but only from the command-line interface, locally, with the command
 
 ```
@@ -77,3 +77,10 @@ Here is a trivial example that should get you started:
 
 will print the hazard curves for each realization as a composite array of N
 elements, being N the total number of sites.
+
+The web API will change and it will be possible to download only one
+realization at the time. For instance, in order to download the realization
+number 21, one will have to access the URL `/hcurves/rlz-21`. Alternatively,
+from the CLI, one will run the command `oq export hcurves/rlz-21`.
+Mean and quantiles, if present, will be extracted from `hcurves/mean`,
+`hcurves/quantile-0.1`, etc.
