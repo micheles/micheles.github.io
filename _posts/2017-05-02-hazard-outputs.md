@@ -7,9 +7,9 @@ In the last few years the engine has become more and more
 efficient. Nowadays it is so powerful that design decisions that were
 reasonable 7 years ago are now questionable. In particular, as we
 scale up the size of our computations, the management of the hazard
-outputs has to change. In the past only computations with with a
+outputs has to change. In the past only computations with a
 relatively small output were feasibile, so it made sense to export everything
-with a single call. This is no more feasible.
+with a single call. This is not feasible anymore.
 
 Statement of the problem
 ---------------------------------
