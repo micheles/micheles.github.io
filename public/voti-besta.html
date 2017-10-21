@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    </meta>
+    <style>
+      body {
+      font-size: 50px 
+      }
+      input {
+      font-size: 50px 
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script>
+      $(function() {
+            
+      var maximum = parseInt($("#maximum").val());
+      var minimum = maximum * 0.25;
+      
+      function evaluation (p, M) {
+          // implement the rule that you need to get at least 60% of the
+          // score to get an evaluation of 6
+          return p * 10 / M;
+      }
+      
+      $("#maximum").change(function () {
+        maximum = Math.max(parseInt($("#maximum").val()), 1);
+        $("#maximum").val(maximum);
+        $("#score").val(.6 * maximum);
+        $("#output").val(6);
+      });
+      
+      $("#score").change(function () {
+         var score = parseFloat($("#score").val());
+         if (score < 0){score = score + maximum;};
+         if (score > maximum){score = maximum;};
+         $("#score").val(score);
+         $("#output").val(evaluation(score, maximum).toFixed(1));
+      });
+      
+      });
+    </script>
+  </head>
+  <body>
+    <h2>Converter Score -> Evaluation</h2>
+Maximum Score:
+<input type="number" name="maximum" id="maximum" value="100" size="4" /> <br/>
+    Student Score:
+<input type="text" name="score" id="score" value="60" size="4" /> <br/>
+Evaluation:
+<input type="text" id="output" value="6.0" size="4" />
+  </body>
+</html>
