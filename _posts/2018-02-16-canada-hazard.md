@@ -3,7 +3,7 @@ layout: post
 title: Running extra-large PSHA calculations (Canada 2015)
 ---
 
-In recent years the engine has become so good that it is able to run
+Recent versionf of the engine are so good that we can normally run
 almost any calculation without tweaking; this is why I have
 not updated this blog for several months. But now I have found a
 calculation large enough to make for an interesting blog post: the
@@ -95,7 +95,7 @@ the more substantial the effect of the optimization.
 
 In the case at hand I ran the model both with the optimization (in 6h39m)
 and without (in 17h42m). In the heavy computational part in the workers
-the speedup is more than three times (3.3x), so very substantial.
+the speedup is more than three times (3.3x) i.e. very substantial.
 
 Computing the statistics
 -----------------------------
@@ -119,7 +119,7 @@ equidistribution of the memory, this means 13.5 GB of RAM per core.
 In reality the needed memory will be a lot more than
 that, since the engine is doing more than just keeping in memory the
 arrays. It is clear therefore that we will have to tweak the parameter
-concurrent_tasks to produce enough tasks that the computation can fit
+`concurrent_tasks` to produce enough tasks that the computation can fit
 in memory. The way to do that is via trial and errors, and I discovered
 that in our cluster one has to set
 
@@ -139,19 +139,19 @@ them directly. If you try, you will get an error like this:
 The issue is that direct computation of the statistics requires transferring
 information about the hazard curves from the controller node to the workers
 and that transfer is done via celery and rabbitmq. Such technologies have
-limits and cannot transfer amounts of data that exceed the limits.
+their limits and cannot transfer amounts of data that exceed the limits.
 This is the case for the Canada calculation. Therefore in the job.ini file
 one has to set
 
-  mean_hazard_curves = false
-  
+  `mean_hazard_curves = false`
+
 to make sure that the engine does not try to compute the statistics directly.
 Instead, we have to compute the statistics indirectly, in post-processing.
 
-The thing you should understand is that the engine is very smart: so smart that
-even if you disable the statistics it will still save in the datastore
-enough information to build them later. Actually, it has enough information
-to extract all realizations.
+The engine is very smart: so smart that even if you disable the
+statistics it will still save in the datastore enough information to
+build them later. Actually, it has enough information to extract all
+realizations.
 
 To build the statistics in postprocessing you should write a file
 `job_stats.ini` with the following content:
@@ -174,12 +174,12 @@ $ oq engine --run job_stats.ini --hc PREV_CALC_ID
 where `PREV_CALC_ID` is the ID of the previous calculation.
 
 This is not all. On a cluster, the engine will still try to use
-celery/rabbitmq, so the calculation will still fail. The solution is to
-configure a shared directory, i.e. a directory where the controller node
-can save the calculation .hdf5 files and the workers can read them and
-to specify the location of that directory in the `openquake.cfg` file.
-Only then the engine will be able to read the data from the original
-calculation directly from the workers, without using celery/rabbitmq
-and without pickling, i.e. in an efficient way. So efficient that
-the calculation was actually done in less than half an hour on our
-cluster.
+celery/rabbitmq to send the hazard data to the wokers, so the calculation
+will fail. The solution is to configure a shared directory, i.e. a
+directory where the controller node can save the calculation .hdf5
+files and the workers can read them and to specify the location of
+that directory in the `openquake.cfg` file.  Only then the engine will
+be able to read the data from the original calculation directly from
+the workers, without using celery/rabbitmq and without pickling,
+i.e. in an efficient way. So efficient that the calculation was
+actually done in less than half an hour on our cluster.
