@@ -1,5 +1,7 @@
-Running extra-large PSHA calculations (Canada 2015)
----------------------------------------------------
+---
+layout: post
+title: Running extra-large PSHA calculations (Canada 2015)
+---
 
 In recent years the engine has become so good that it is able to run
 almost any calculation without tweaking; this is why I have
