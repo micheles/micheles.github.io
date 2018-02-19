@@ -3,8 +3,8 @@ layout: post
 title: Running extra-large PSHA calculations (Canada 2015)
 ---
 
-Recent versionf of the engine are so good that we can normally run
-almost any calculation without tweaking; this is why I have
+Recent versions of the engine are so good that we can normally run
+almost any calculation without tweaking any parameter; this is why I have
 not updated this blog for several months. But now I have found a
 calculation large enough to make for an interesting blog post: the
 Canada 2015 National Hazard Model.
@@ -12,7 +12,7 @@ Canada 2015 National Hazard Model.
 Computationally, the Canada model is interesting because it has really a lot
 of sites (206,366) and of realizations (13,122); still it is small enough
 that it can be run with full enumeration, if one is careful enough. Moreover,
-it is interesting because it features a lot of duplicated sources and can
+it features a lot of duplicated sources and can
 be used as a test bed for a recently introduced feature
 (`optimize_same_id_sources`).
 
