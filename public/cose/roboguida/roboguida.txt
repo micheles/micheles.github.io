@@ -1,0 +1,881 @@
+L'era del super robot: 1972-1987
+================================
+
+Il robot gigante e' una delle icone piu' tipiche dell'animazione
+giapponesi.  Da oltre quarant'anni continua imperterrito ad affollare
+le produzioni anime, facendo capolino nei contesti piu' disparati. Fa
+parte della cultura popolare e sono state erette varie statue ai robot
+piu' celebri (e non solo in Giappone). La storia del super robot e
+lunga e ancora in corso; ma non c'e' dubbio che sia stato un periodo
+storico, tra gli anni settanta e i primi anni ottanta, che e'
+universalmente considerato come l'eta' d'oro del super robot. Questo
+articolo (informalmente detto "la roboguida") si propone di guidare il
+lettore attraverso il labirinto di quegli anni, popolato da decine e
+decine di serie robotiche, in numero cosi' grande da far girare la
+testa e da sembrare inconcebili al giorno d'oggi il cui il robotico e'
+un genere trascurabile, per lo meno come numero di serie prodotte.
+Va detto pero' che anche oggi si producono serie robotiche perfettamente
+aderenti all'ortodossia del genere (mostro della settimana, agganciamenti,
+trasformazioni, colpo finale, eccetera) eppure di grandissima qualita'.
+Sono pero' in numero ridotto (le uniche veramente celebri degli ultimi
+anni sono Aquarion e Gurren Lagann) e non c'e' un gran bisogno di una
+guida: guida che e' invece indispensabile per gli anni 1972-1986,
+in cui sono state prodotte oltre 80 serie robotiche, con una durata
+media di 50 puntate l'una  (oltre 4000 episodi!) e questo senza
+contare i film e gli OAV.
+
+Uno degli scopi della roboguida e' quello di essere comprensiva
+e quindi di citare *tutte* le serie robotiche del periodo in esame,
+anche quelle mai uscite in Italia. In questo si distingue da un
+sito come l'Encirobopedia, che glissa su varie serie inedite ma
+non per questo minori o trascurabili nella storia del genere.
+Per potere citare tutte le serie robotiche e' pero' necessario
+avere una definizione precisa. Cosa costituisce una serie robotica
+e cosa no? E' sufficiente che vi sia un robot gigante o serve
+qualcosa di piu'? E se serve qualcosa di piu', quali sono i criteri
+per classificare una serie come robotica?
+Queste domande sono difficili, perche' non hanno una risposta univoca
+e ci sono non poche serie che sfidano una classificazione precisa, in
+particolare molte serie dei primi anni ottanta
+in cui il robot gigante ha un'importanza relativa, e che sono
+piu' serie d'avventura/azione e/o fantascienza che serie robotiche
+secondo l'ortodossia nagaiana degli anni settanta. C'e' un certo
+margine di arbitrarieta' nelle classificazioni, questo e' innegabile,
+e anche esperti del genere possono avere dei dubbi nella classificazione
+di certe serie.
+
+Classificazione delle serie robotiche
+--------------------------------------------------------------
+
+Esistono due rami principali del robotico: il robotico nagaiano, che
+nasce con Mazinger Z (1972) e il robotico tominiano che nasce con
+Gundam (1979). Entrambi danno luogo a una quantita' di epigoni e
+imitazioni, motivo per cui con "robotico nagaiano" non si intende un
+anime robotico partorito direttamente da Go Nagai, ma un robotico
+ispirato agli stilemi tipici di Go Nagai. Lo stesso vale per robotico
+tominiano: contano come robotici tominiani una quantita' di serie che
+non sono state realizzate da Yoshiyuki Tomino. Inoltre va ricordato
+che non tutti i robotici di Tomino sono tominiani, visto che il
+regista ha realizzato dei robotici in perfetto stile nagaiano
+(Raideen, Zambot, Daitarn) prima di sviluppare il suo proprio stile.
+
+La roboguida ha preso la decisione di focalizzarsi sui rami principali
+del robotico, scartando una quantita' di anime che presentano un robot
+gigante ma che si differenziano troppo dall'ortodossia nagaiana o
+tominiana. In particolare sono state scartate le seguenti tipologie di
+robotici:
+
+- le serie con un robot gigante comandato da un bambino (alla Tetsujin 28)
+- le serie ranger/cowboy dello spazio con annesso robot gigante
+
+La prima tipologia di anime merita ogni credito, visto che precede
+il robotico nagaiano e gli da' ispirazione; la seconda tipologia
+invece nasce negli anni ottanta ed e' semplicemente una trovata
+commerciale per vendere giocattoli robotici anche in serie action che
+di robotico non hanno praticamente nulla. Per motivi di completezza
+riporto qui gli anime afferenti alle due diverse tipologie che 
+non verranno presi in considerazione in questa guida: e' conveniente
+elencarli, se non altro a scopo classificatorio.
+
+Il robot alla Yokoyama
+-------------------------------------
+
+Nel 1956 il mangaka Mitsuteru Yokoyama ha l'idea di narrare le
+avventure di un detective-bambino (Shotaro Kaneda) che combatte il
+crimine sfruttando un robot gigante (Tetsujin 28) costruito dal
+padre. Il manga ha cosi' tanto successo da essere trasposto in anime
+nel 1963, pochi mesi dopo Astroboy. Nel 1967 Yokoyama realizza anche
+un altro manga con un robot gigante, intitolato per l'appunto Giant
+Robo, in cui il giovane XXX combatte il sindacato del crimine Big Fire
+sfruttando il Giant Robo.  Il manga ottiene un buon successo e viene
+immediatamente trasposto in un tokusatsu televisivo dallo stesso
+titolo; verra' poi trasposto varie volte in forma anime negli anni
+novanta e duemila.  Giant Robo e' a mia conoscenza il primo manga in
+cui compaiono super armi: in particolare Giant Robo si trova ad
+affrontare robot avversari dotati di pugni atomici, ben cinque anni
+prima di Mazinger.  Nonostante l'importante ruolo di precursore svolto
+dai manga di Yokoyama, i suoi robotici sono troppo diversi da quello
+che diventera' poi il genere: sia Tetsujin che Giant Robo sono robot
+indipendenti, guidati il primo tramite un telecomando e il secondo via
+comandi vocali.  La differenza con i robotici "veri" (mi si passi il
+termine) e' che manca il pilota: manca inoltre la ripetitivita' tipica
+del genere e la forte attenzione alle battaglie robotiche. Sono opere
+che derivano da altri generi (Tetsujin e' in buona misura un manga
+investigativo, mentre Giant Robo e' una spy story), non ancora
+completamente robotiche nel senso nagaiano del termine.
+
+Negli anni di interesse per la roboguida vengono realizzate ben 4
+serie alla Yokoyama, ovver con un robot gigante comandato ma non pilotato
+da un bambino:
+
+ ASTRO GANGAR (1972)
+ TETSUJIN 28-go (1980)
+ Ougon Senshi GOLD LIGHTAN (1981)
+ Giant GORG (1984)
+
+Queste serie le ho viste tutte tranne Lightan. Mi sento di consigliare
+Astro Gangar, apparso anche in Italia nell'epoca d'oro dei robottoni e
+Giant Gorg, recentemente sottotitolato dalla Skaro Hunting Society
+(http://skarohuntingsociety.blogspot.it)
+
+Pseudo-robotici d'azione
+--------------------------------------------------------
+
+Negli anni ottanta il robotico era cosi' in voga che qualunque serie
+d'azione voleva fregiarsi di un robot gigante, cosi' tanto per fare
+scena e per vendere i giocattoli. Il robot non ha altro significato e
+quindi in queste serie non compare il mostro della settimana e i
+combattimenti robotici hanno poca rilevanza e sono spesso assenti:
+molto piu' spazio viene invece lasciato agli exploit dei protagonisti,
+che sono tipicamente ranger dello spazio che combattano il
+crimine. Negli anni di interesse per la roboguida si contano ben 8
+serie di questo tipo:
+
+Bryger (1981) il capostipite del genere
+Baxinger (1982)
+Srungle (1983)
+Sasuraiger (1983)
+GALVION (1984)
+Choriki Robo GALATT (1984)
+Sei Jushi BISMARCK (1984)
+Galatt (1984)
+
+Tra gli antenati del genere va ricordato anche Goshogun, che precede
+Bryger di 3 mesi: trattandosi pero' di una serie con mostro della
+settimana e colpo finale, va ascritta a pieno titolo alla tradizione
+nagaiana, per quanto il nemico sia un sindacato criminale interessato
+al denaro piu' che alla conquista della Terra.
+
+Personalmente non mi sento di consigliare nessuna di queste
+serie, tra quelle che ho visto (Bryger, Baxinger, Srungle, Bismark).
+Possono comunque essere di gradimento per i fan del genere action
+e degli anni ottanta.
+
+Mecha puri e semplici
+--------------------------------------------------------
+
+Generalmente si usa il termine "mecha" per intendere un qualunque
+anime dove compaiono robot giganti. Personalmente pero' mi pare il
+caso di distinguire tra anime robotici veri e proprio, in cui il robot
+gigante e' fondamentale (ha un nome proprio che spesso da' il titolo
+alla serie, e' unico e non prodotto in serie, e' associato al suo
+pilota e in qualche misura migliore dei mecha nemici) e semplici
+mecha, in cui il robot gigante ha la stessa importanza di un carro
+armato o di un caccia, e' un puro mezzo da battaglia privo di ogni
+caratteristica che lo renda speciale. Il primo mecha e' Macross, in
+cui i mecha sono degli aerei trasformabili in robot umanoidi. Il nome
+della serie viene dalla base spaziale, anch'essa trasformabile in
+robot, ma che non viene praticamente mai usata come tale. Sulla
+falsariga di Macross vari anime mecha sono apparsi negli anni ottanta,
+e verranno tutti esclusi dalla roboguida proprio perche' i robot
+giganti che vi appaiono non rivestono abbastanza importanza. Per
+completezza ne do' un elenco completo (sono solo 6 titoli):
+
+Macross (1982)
+Votoms (1983)
+Orguss (1983)
+Mospeada (1983)
+Dorvack (1983)
+Southern Cross (1984)
+
+Ci sono poi i vari Megazone.
+
+La roboguida ha preso la decisione quella di focalizzarsi sul
+super robot canonico, quello basato sulla tradizione nagaiana,
+iniziata nel 1972 con il capostipite di tutti i robot, Mazinga Z.
+Per questo motivo sono stati scartati tutti i real robot, da Gundam
+in poi. Sono state scartate anche tutte le serie mecha (da Macross 
+in poi) che si differenziano troppo dal paradigma nagaiano. Le serie
+con un robot divino o leggendario (Raideen, Ideon) o casi limite
+come Jeeg, che non e' un robot pilotato e a rigore non e' neppure
+un robot, visto che la sua testa e' una trasformazione del protagonista,
+sono state accettate perche' comunque piu' affini al super robot che
+al real robot o al mecha.
+
+Definizione di super robot
+-------------------------------------------------------------
+
+Una definizione precisa di super robot puo' e' essere difficile, per
+la presenza di casi ambigui e difficilmente classificabili;
+tuttavia esiste un anime che definisce l'ortodossia del genere e che ne
+e' universalmente riconosciuto come il capostipite:
+Mazinga Z. Si capisce quanto un anime sia
+ortodosso guardando quanto si avvicina all'anime di Mazinga Z.
+L'importanza di Mazinga Z per gli anime degli anni settanta e'
+assoluta: tutti gli anime di quell'epoca, con l'unica eccezione di
+Gundam sono costruiti sul paradigma delle serie di Mazinga Z.
+Paradigma che consiste nella seguente serie di punti, che possono
+essere controllati per verificare l'ortodossia di una serie:
+
+0. il robot gigante (pilotato)
+
+Perche' una serie possa essere chiamata robotica deve esserci un robot
+gigante in posizione di primo piano: di solito il robot e' cosi'
+importante che da' il nome alla serie. Questa convenzione e' cosi'
+diffusa che e' quasi impossibile trovare una serie robotica in cui
+non sia rispettata; d'altra parte esistono molte serie il cui titolo
+e' dato dal nome di un robot gigante che pure non rientrano nel
+genere del super robot. Il robot dev'essere pilotato, altrimenti
+si ricade in generi diversi: i robot autocoscienti di Tezuka,
+i robot telecomandati di Yokohama, il robot vivente Astroganga.
+Sono tutti antenati del super robot ma non sono super robot nel
+senso nagaiano. Cosi' come non sono super robot i Transformers,
+che pure nascono dalle capacita' di trasformazione dei super robot
+degli anni settanta.
+
+1. il mostro della settimana
+
+Una serie robotica ortodossa e' costruita attorno ai combattimenti
+contro un mostro meccanico, ogni volta diverso. Questo e' un elemento
+distintivo del genere super robot, estremamente importante; le serie
+real si distinguono proprio perche' manca il mostro della settimana,
+sostituito da dei mecha prodotti in serie, sembra uguali o almeno 
+in un numero limitato di modelli.
+
+2. struttura rituale e ripetitiva
+
+I combattimenti di un anime robotico ortodosso devono
+seguire un certo rituale (preliminari, agganciamenti, colpo finale)
+che si ripete uguale in tutte le puntate. La struttura degli episodi
+e' modellata attorno al combattimento, che ne costituisce il momento
+clue. Il robot ha degli attacchi e delle armi predefinite, che
+vengono urlati in anticipo, cosicche' lo spettatore sappia
+gia' cosa aspettarsi.
+
+3. presenza di stereotipi e personaggi tipici
+
+Un robotico canonico degli anni settanta ha sempre dei personaggi
+tipici: il professore che ha costruito il robot ed e' a capo della
+base; la ragazza che funge da fidanzata del pilota del robot e
+di solito e' figlia del professore; il ragazzino dodicenne che
+di solito e' il fratello minore di qualcuno e che in vari casi
+puo' anche essere parte integrante del team; il personaggio
+di corporatura robusta. Con l'andare degli anni il personaggio
+del professore e' andato sparendo, oppure il suo ruolo e'
+stato sdoppiato in due personaggi: da un lato lo scienziato, dall'altro
+il capo militare della base. Nel robotico tardo i militari assumono
+un ruolo primario in tutte le serie e i piloti diventano soldati o
+sono comunque soggetti alla disciplina militare, cosa che non avviene
+mai nei robotici dei primi anni settanta.
+
+4. privilegio della spettacolarita' sopra la verosimiglianza
+
+Il genere del super robot si distingue anche per la
+scarsissima attenzione alla verosimiglianza: quello che conta
+e' la spettacolarita' dell'azione e dei combattimenti, non la
+coerenza scientifica e neppure la coerenza logica. I nemici
+possono sconfiggere il super robot di turno in quasi tutte
+le puntate, ma per stupita' non gli assegnano mai il colpo
+di grazia (di solito perche' vogliono distruggere la base,
+cosa che potrebbe benissimo fare con calma dopo) di modo
+che l'eroe ha sempre modo di rimontare e di capovolgere le
+sorti della battaglia. Allo stesso modo, i nemici non attaccano
+mai con forze soverchianti, ma sempre con un robot alla volta:
+le uniche volta in cui sembrano vincere, e' perche' gli eroi hanno
+pronto in mano un asso della manica. Inutile tacciare il genere
+di infantilismo: e' molto peggio che infantile perche' anche
+un bambino di 8 anni si rende conto delle assurdita' del genere.
+Ma ci si passa sopra perche' il super robot non vuole e non deve
+essere realistico: il tentativo di renderlo realistico ucciderebbe
+il genere.
+
+5. presenza aspetti mitici, leggendari, divini ma anche fiabeschi
+
+Il super robot attinge dal mito e della fiaba tanto quanto attinge
+dalla fantascienza e forse anche di piu': quindi abbondano principi,
+principesse, streghe, mostri, demoni, magie e incantesimi. La
+magia ha una rilevanza fondamentale in serie come Raideen, Jeeg,
+Golion, God Mazinger.
+
+In bilico tra fantasia e realismo
+--------------------------------------------------
+
+Il super robot discende direttamente dai film di Kaiju degli anni
+cinquanta e sessanta, in primis Godzilla e Gamera. Rispetto a queste
+opere il super robot e' "realistico": non e' piu' un essere semidivino
+(Godzilla e' adorato come un Dio dai pescatori dell'isola in cui
+appare per la prima volta, Gamera e' lo spirito guardiano del pianeta
+Terra), ma un frutto della tecnologia umana: e' fatto di metallo,
+ingranaggi, po' essere danneggiato, riparato, migliorato, sostituito
+da un modello superiore (tutto questo avviene gia' in Mazinga Z).  Il
+super robot e' "realistico" anche rispetto ai tokusatsu degli anni
+sessanta e settanta, da Ultraman in poi, in cui il protagonista poteva
+trasformarsi in un gigante d'acciaio dotato di superpoteri in barba a
+qualsiasi spiegazione scientifica. A partire da Gundam, la spinta
+verso il realismo portera' il super robot a trasformarsi nel
+cosiddetto "real robot", mero costrutto tecnologico prodotto in serie
+e non piu' frutto della genialita' di uno scienziato eccezionale. Ma
+e' difficile liberarsi dalle proprie origini e contemporaneamente alla
+spinta verso il realismo opera nel genere anche una spinta opposta,
+verso la fantasia piu' sfrenata, un ritorno verso le caratteristiche
+tipiche del kaiju eiga. Se il "real robot" spinge verso la macchina,
+l'"unreal robot" (termine coniato dal sottoscritto) spinge verso il
+mostro, l'essere organico, antico, demoniaco ma anche divino. Se negli
+anni settanta e ottanta l'unreal robot ha una presenza limitata nel
+panorama anime, a partire da Evangelion e' diventato il sottogenere
+dominante: super robot e real robot sono ormai rarissimi, ma fioccano
+i robot organici (Evangelion, Brain Powerd) e quelli dotati di poteri
+illimitati e quasi divini (RahXephon, Aquarion, Gurren Lagann). A causa dei
+limiti che si e' autoimposta la roboguida non puo' affrontare gli
+unreal robot moderni, ma non manchera' di analizzare gli esempi
+presenti negli anni 1972-1985. Del resto elementi unreal sono presenti
+nel super robot da sempre. Il super robot e' animista: per esempio, in
+una puntata di Mazinga Z, dopo che Afrodite A e' andata distrutta,
+Sayaka vede l'anima del suo robot. I super robot nagaiani possono
+sanguinare (Mazinga) e piangere (Minerva X): sono meccanici ma allo
+stesso tempo quasi esseri viventi. Gli unreal robot si distinguono
+perche' lo sono esplicitamente: Jeeg non e' robot, visto che la sua
+testa non e' altro che una trasformazione del suo pilota. Raideen e'
+un robot vivente, guardiano mistico della Terra: in una puntata lo
+vediamo guarire da un danno grazie a un raggio magico, non venire
+riparato.  L'Ideon di Tomino e' un robot infestato dallo spirito
+dell'Ide, entita' autocoscienza e dai poteri quasi divini. God Mazinger
+e' una divinita' tutelare: ma del resto fin dalla
+prima pagina di Mazinga Z l'associazione tra il super robot e la
+divinita' (sia in senso positivo che negativo, come demonio) e'
+chiara e evidente.
+
+
+I tre periodi del super robot
+--------------------------------------------------
+
+In cinque anni un bambino passa dalla prima elementare alla prima media,
+e dalla prima media alla terza superiore: per lui cinque anni sono
+un'epoca, un periodo in cui tutto cambia. Essendo il super robot un
+genere rivolto principalmente all'infanzia, non sorprende che sia
+un genere ad evoluzione rapida: bisogna adattarsi ai gusti dei
+ragazzi e fornire sempre qualcosa di adatto alla loro crescita.
+Se quindi nel 1972 Mazinga Z deve poter intrattenere dei bambini
+di 6-7 anni, nel 1977 Vultus deve poter intrattenere dei ragazzini di
+11-12 anni e nel 1982 Macross deve poter intrattenere dei ragazzi di
+16-17 anni (Macross non e' un super robot secondo i parametri
+nagaiani, ma e' comunque un evoluzione del genere). Cinque anni
+sono un periodo cosi' grande che e' possibile distinguere l'era
+del super robot in tre fasi:
+
+1972-1976: il robotico nagaiano
+1977-1981: il robotico di mezzo
+1982-1985: il robotico tardo
+
+Il robotico nagaiano e' quello piu' celebre, essendo stato il primo,
+ed e' quello che ha avuto piu' influenza sul robotico posteriore;
+il robotico di mezzo, pero', ha dalla sua delle grosse migliorie
+sia a livello tecnico sia tramistico ed e' un periodo di
+grande successo del genere, che raggiunge la maturita'; il robotico tardo
+invece e' un periodo di decadenza, il cui il super robot perde terreno
+e viene abbandonato in favore del real robot e del mecha. Il 1982
+e' l'anno di Macross, non lo dimentichiamo; nel 1981 invece al
+cinema trionfano i film di Gundam, mentre in TV appare il primo
+real robot di Takahashi, Dougram: il gusto del pubblico si rivolge
+verson queste opere e il super robot decade inesorabilmente, scomparendo
+nel 1985, l'anno di Dancougar, che e' l'ultima serie a seguire il
+canovaccio nagaiano.
+
+Il periodo 1982-1985 e' quello che ha prodotto piu' robot giganti,
+circa 30 serie in soli 4 anni, molte di piu' di quante ne venissero
+prodotte in un periodo di tempo equivalente negli anni settanta:
+tuttavia poche di queste serie sono super robot tradizionali, la
+maggioranza sono serie mecha in cui il robot gigante conta abbastanza
+poco, oppure serie real robot, oppure serie difficilmente
+classificabili come Dunbine, a meta' tra fantasy, fantascienza e
+mecha. Per il loro numero e la loro importanza queste serie
+meriterebbero una guida a parte, ma per motivi di spazio (nonche' di
+ignoranza dell'autore) si e' deciso di escluderle, per quanto a
+malincuore. Perche' e' chiaro che tra queste serie ci sono delle perle
+dell'animazione, realizzati da autori del calibro di Yoshiyuki Tomino
+e Ryusuke Takahashi che hanno preso il posto del super robot
+per merito, non semplicemente per motivi di moda.
+
+Dopo il 1985 genere del super robot muore, ma non del tutto, e anzi torna in
+auge negli anni novanta con le Brave Series, otto serie in otto anni.
+E' ben poca cosa rispetto al passato, nel solo 1976 sono andati in onda
+piu' super robot che in tutti gli anni novanta,
+ma comunque una testimonianza che il genere esisteva ancora in Giappone,
+mentre in Italia negli stessi anni era completamente scomparso, se non per
+le repliche dei vecchi robot sulle TV private. Nel 1995 arriva Evangelion
+negli anni duemila Aquarion e Gurren Lagann, piu' molte altre serie che
+hanno avuto minor riscontro ma comunque di ottima qualita'
+(RahXephon). Tutte le serie moderne verranno ignorate nella roboguida,
+sempre per motivi di spazio e di focus.
+
+
+1972-1976: il robotico nagaiano
+----------------------------------------
+
+Questo periodo vede l'uscita di 14 serie canoniche: 1 nel 1972 (Mazinga Z),
+2 nel 1974 (Getter Robot e il Grande Mazinga), 4 nel 1975 (Raideen, Getter
+Robot G, Jeeg e Goldrake) e ben 7 nel 1976 (Gaiking, Godam, Daiapolon,
+Combattler V, Groizer X, Astrorobot contatto Y e Gakeen). La progressione
+e' chiara e decreta il trionfo del genere. Nel 1976 Nagai abbandona la Toei
+ma continua a dominare la scena, visto che tutte le serie di quell'anno
+sono pesamentemente ispirate ai modelli da lui inventati. Fa eccezione solo
+Combattler V, di Tadao Nagahama, che anticipa quello che sara' il robotico
+di mezzo.
+
+01 1972.12.03 MAZINGER Z
+
+02 1974.04.04 GETTER ROBO
+03 1974.09.08 GREAT MAZINGER
+
+04 1975.04.04 REIDEEN The Brave
+05 1975.05.15 GETTER ROBO G
+06 1975.10.05 Kotetsu JEEG
+07 1975.10.05 UFO Robo GRENDIZER
+
+08 1976.04.01 Daiku-Maryu GAIKING
+09 1976.04.04 Gowapper 5 GODAM
+10 1976.04.06 UFO Senshi DAIAPOLLON
+11 1976.04.17 Cho Denji Robo COMBATTLER V
+12 1976.07.01 GROIZER X
+13 1976.07.05 Blocker Gundan IV MACHINE BLASTER
+14 1976.09.05 Magne Robo GA-KEEN
+
+1972-1973
+---------
+
+Nel settembre 1972 esce il manga di Mazinga Z e in dicembre inizia la
+serie capostipite del genere robotico. Su Mazinga Z e' stato detto
+di tutto e sono stati scritti fiumi di inchiostro; mi pare inutile
+ripetere qui cose che si possono facilmente reperire in rete.
+Preferisco invece segnalare due altri anime apparsi nel 1972
+che per quanto non classificabili come super robot sono comunque
+assimilabili al genere e importanti. Il primo e' Devilman, uscito
+in marzo, e il secondo e' Astroganga, uscito in XXX. Entrambi
+precedono Mazinga Z. Devilman non puo' essere classificato come
+robotico perche' semplicemente non ci sono robot: ma per il resto
+e' in tutto e per tutto assimilabile ad un robotico, con il classico
+schema mostro della settimana (e' il primo ad avere portato in animazione
+questo format tipico delle serie tokusatsu televisive) che verra'
+poi usato in tutti i robotici. Astroganga segue anch'esso lo schema
+tokusatsu: non lo classifico come robotico solo perche' il robot
+non e' pilotato, ma e' un essere autocosciente, in metallo vivente,
+con un esistenza indipendente da quella del suo amico Charlie,
+il bambino di 5 anni che e' il vero protagonista delle vicenda.
+Astroganga scarseggia di super armi; e' il primo a ideare il "fade in",
+poi copiato da Raideen e da God Mars.
+
+1974
+--------
+
+Nel 1974 escono le prime serie robotiche dopo Mazinga Z: Getter Robot
+e il Grande Mazinga. E' anche l'anno del film di Mazinga Z contro il
+Generale Nero. E' un ritorno allo spirito dei film dei Kaiju: i mostri
+nemici non sono piu' semplici robot, ma dinosauri meccanizzati (in
+Getter) o cyborg (in Mazinga Z). Umani possono essere trasformati in
+mostri. La dimensione del mito e della leggenda si fa piu' forte (Mikenes)
+e diventera' ancora di piu' l'anno successivo.
+
+1975
+----
+
+Il 1975 e' un anno di boom per il super robot: escono ben quattro serie,
+il doppio dell'anno precedente, e per la prima volta una casa produttrice
+che non e' la Toei si cimenta nel genere. E' il primo passo della Sunrise,
+che diventera' poi una casa leggendaria per il genere. E fin da subito
+la Sunrise punta su Yoshiyuki Tomino, all'epoca alla sua prima regia.
+Tomino cura le prime 26 puntate di Raideen; le altre 26 verranno
+affidate a Tadao Nagahama il secondo grande regista robotico, che
+dominera' la scena dei secondi anni settanta con i suoi super robot shojo.
+Reideen detiene una serie di primati: e' il primo robot "unreal", il primo
+a inventare il colpo finale. Il secondo robot "unreal" e' Jeeg: anche
+qui incantesimi e magia la fanno da padrona: campane di bronzo, mostri
+di roccia, identico a Raideen.
+
+04 1975.04.04 REIDEEN The Brave
+05 1975.05.15 GETTER ROBO G
+06 1975.10.05 Kotetsu JEEG
+07 1975.10.05 UFO Robo GRENDIZER
+
+Come sempre Go Nagai e' un precursore, e gia' nel 1975 capisce che il
+futuro del robotico e' nello spazio. E cosi' gli viene in mente l'idea
+di un principe alieno che si rifugia sulla Terra assieme al suo robot,
+per sfuggire all'esercito invasore che ha distrutto il suo pianeta:
+e' il film di Gattaiger, il precursore di Grendizer, da noi universalmente
+conosciuto sotto il nome di Goldrake.
+
+1976
+-----
+
+Il 1976 e' l'anno della grande inflazione: escono ben 7 serie
+robotiche, troppe. E' chiaro che il genere deve cambiare ed evolversi
+se vuole sopravvivere, non e' pensabile mantenere un simile ritmo di
+serie tutte uguali: il canone nagaiano va superato. E Nagai non e'
+piu' disponibile per farlo, perche' nel 1976 litiga con i direttori
+della Toei che non gli hanno riconosciuto i diritti per la serie di
+Gaiking e se ne va.  Ma non e' un problema: questi sono gli anni di
+massimo sviluppo del genere, che ha dentro di se' energia e carica
+d'innovazione piu' che sufficienti per resistere all'abbandono di
+Nagai e per evolversi in forma nuova, pur nel rispetto della
+tradizione. Il 1976 e' ancora un anno puramente nagaiano: delle 7
+serie presenti due sono di Nagai (Gaiking e Groizer X) e tre e' come
+se lo fossero (Daiapolon, Astrorobot GaKeen); Godam della Tatsunoko e'
+probabilmente la serie piu' diversa dagli stereotipi nagaiani, ma
+apparentemente non e' mai piaciuta a nessuno e ha avuto ben poco
+impatto sul robotico successivo. A guardare con il senno di poi,
+l'unica serie importante del 1976 e' Combattler V.
+
+08 1976.04.01 Daiku-Maryu GAIKING
+09 1976.04.04 Gowapper 5 GODAM
+10 1976.04.06 UFO Senshi DAIAPOLLON
+11 1976.04.17 Cho Denji Robo COMBATTLER V
+12 1976.07.01 GROIZER X
+13 1976.07.05 Blocker Gundan IV MACHINE BLASTER
+14 1976.09.05 Magne Robo GA-KEEN
+
+La Terra e' troppo stretta per il super robot, troppo affollata:
+c'e' bisogno di spazio. Spazio che sara' trovato nel robotico
+successivo, nel 1977-1981, l'era del robotico di mezzo.
+
+
+1977-1981: il robotico prende il volo
+----------------------------------------
+
+Nelle puntate finali della serie (1977) Goldrake e' il primo robot a
+spiccare il volo e a raggiungere lo spazio, quando parte all'attacco
+della base lunare delle forze di Vega. I nemici alieni e il viaggio
+finale nello spazio diventeranno un topos delle serie robotiche da
+allora in poi: anzi la tendenza si rinforzera' sempre di piu' in
+questo periodo, tanto che cominceranno ad apparire storie robotiche
+ambientate integralmente nello spazio. Nemici alieni e combattimento
+finale nello spazio si trovano in praticamente tutte le serie
+posteriori al 1977; Danguard (1977) e' la prima serie in cui la base
+dei protagonisti spicca letteralmente il volo e diventa una nave
+spaziale, anche questa caratteristica che e' diventata tipica del
+genere.  Si compie in questo periodo l'evoluzione che ha portato il
+super robot da genere sotterraneo per eccellenza (si pensi alla
+antiche razze sepolti da millenni sotto la roccia, i Mikenes di
+Mazinga, i Dinosauri di Getter, i Mu di Raideen, gli Yamatai di Jeeg)
+a genere spaziale.  Evoluzione che trent'anni dopo e' stata
+mirabilmente riassunta da Gurren Lagann. In concomitanza con lo
+spostamento dell'azione nello spazio, c'e' anche uno spostamento nel
+tempo: a partire dal 1977 sempre piu' serie sono ambientate nel
+futuro. Si parte con Danguard, ma sono ambientate nel futuro anche
+Zambot, Daltanious, Gordian, God Sigma, Ideon e Baldios: a partire dal
+1979 quasi tutte le serie hanno ambientazione nel futuro, oltre che
+spaziale.
+
+
+01 1977.03.03 Gasshin Sentai MECHANDER ROBO
+02 1977.03.06 Wakusei Robo DANGUARD Ace (*)
+03 1977.04.09 Cho Gattai Majutsu Robo GINGAIZER
+04 1977.06.04 Cho Denji Machine VOLTES V
+05 1977.07.03 Chojin Sentai VARATACK
+06 1977.10.08 Muteki Chojin ZANBOT 3
+
+07 1978.04.01 Tosho DAIMOS
+08 1978.06.03 Muteki Kojin DAITARN 3
+09 1978.07.27 Uchu Majin DAIKENGO (*)
+
+10 1979.03.21 Mirai Robo DALTANIOUS
+11 1979.10.07 Toshi GORDIAN (*)
+
+12 1980.02.02 Muteki Robo TRIDER G7
+13 1980.03.19 Uchu Taitei GOD SIGMA
+14 1980.05.08 Space Runaway IDEON
+15 1980.06.30 Uchu Senshi BALDIOS
+
+
+Tadao Nagahama
+--------------------------------------
+
+Se Go Nagai e' senza dubbio la figura piu' importante del primo periodo del robotico,
+per quanto riguarrda gli anni 1977-1981 due nomi vengono in mente, quelli dei registi
+Tomino Yoshiyuki e Tadao Nagahama della Sunrise. Tra i due Tomino e' il piu'
+innovativo, ma le sue idee si traducono spesso in insuccessi di pubblico: Gundam e
+Ideon sono dei fiaschi, Zambot cosi' cosi', l'unica sua serie robotica di successo
+in questo periodo e' Daitarn III. Al contrario Tadao Nagahama infila un successo
+dopo l'altro ed e' il suo nome quello che domina la scena del super robot in
+questo periodo: Combattler, Vultus, Daimos e Daltanious inaugurano una tradizione
+che verra' continuata anche dopo la morte prematura del regista, avvenuta nel
+1980, mentre stava dirigendo Lady Oscar. E' solo dopo il 1981 che il valore di
+Tomino si afferma finalmente tra il pubblico, ma e' lecito chiedersi come
+sarebbe stato la storia se Nagahama avesse potuto continuare a lavorare.
+
+, il primo
+capitolo della trilogia dei robo-shojo di Tadao Nagahama, regista
+importantissimo in questo periodo, perche' da cui evolvera' il nuovo
+corso del super robot. Le serie alla Nagahama dominerrano tutto
+il secondo periodo del robotico, mentre le serie di Yoshiyuki
+Tomino avranno degli alt
+
+1977
+----
+
+Il 1977 e' un altro anno inflazionato: vengono prodotte 
+ben 6 serie, una in meno del 76, ma sempre molte. Il numero
+diminuira' negli anni successivi. Meta' delle
+serie di quest'anno sono trascurabili (Mechander, Gingaiser, Balatak) ma
+vanno ricordate Danguard, Vultus V e Zambot 3.
+
+1978
+----
+
+Il 1978 e' l'anno di Daikengo, Daitarn e Daimos.
+Daikengo e' la prim integralmente ambientata nello spazio.
+
+1979
+----
+
+Il 1979 e' un anno di grande evoluzione del genere, l'anno di
+Daltanious, Gordian e Gundam.
+
+1980
+----
+
+Il 1980 e' l'anno in cui il super robot raggiunge la maturita'.
+L'anno in cui compaiono serie che si possono benissimo definire per
+adulti, anche se rivolte come sempre a un pubblico infantile.  Il 1980
+e' l'anno di Ideon e di Baldios, serie che hanno condiviso un destino
+simile: bocciate dai giovani spettatori e dagli sponsor, sono state
+troncate prematuramente e concluse qualche anno dopo con un film
+cinematografico. Entrambe serie di altissimo profilo, entrambe
+estremamente impegnate, e entrambe a finale tragico, di monito contro
+la guerra. Probabilmente figlie del clima della guerra fredda,
+adottano una prospettiva profondamente pessimista verso la razza
+umana, e sono entrambe dotate di un'introspezione psicologica che non
+si era mai vista prima in serie anime, fossero robotiche o meno. Si
+parla di tematiche estremamente adulte e difficilmente digeribili per
+i bambini, con grandissimo spazio dedicato a figure femminili
+complesse (penso alla Dottoressa Quinstain di Baldios, alla XXX di
+Ideon). Sono serie moralmente complesse, in cui non e' facile capire
+chi siano i buoni e chi siano i cattivi. Serie che come impegno
+civile, come analisi dei personaggi e come capacita' di impressionare
+non sono mai state superate da allora, per lo meno a giudizio di chi
+scrive. Queste due serie sono il punto piu' alto mai raggiunto dal
+genere robotico in tutta la sua esistenza.  Entrambe portano il genere
+ai suoi limiti e rientrano a fatica. Baldios e' in apparenza piu'
+vicino al canone, per l'ambientazione terrestre e per la presenza del
+mostro della settimana: ma se si guarda la serie si vede che i
+combattimenti sono relegati a un ruolo totalmente marginale, messi li'
+per onare un canone, ma sono cosa di pochi secondi e nessun
+interesse. I combattimenti in Ideon invece sono molto piu' estesi,
+come in tutte le serie di Tomino, ma la serie continua ad essere ai
+margini del genere per le dimensioni del cast. Va detto che Ideon, a
+differenza di Gundam, non puo' essere assolutamente classificato come
+real robot: semmai va equiparato ai robot mistici come Raideen (sempre
+dello stesso Tomino), Golion, il Turn A Gundam, Evangelion, RahXephon
+e infine il Gurren Lagann.
+
+Il 1980 non e' solo l'anno della tragedia, Nello stesso periodo
+esce anche Trider G7, il super robot piu' allegro e umoristico
+che si sia mai visto. Molto piu' scanzonato di Daitarn III,
+meno demenziale di Boss Robot. In Trider G7 i combattimenti
+hanno pochissima rilevanza e occupano pochissimo tempo.
+
+
+Infine il 1980 e' anche l'anno di God Sigma, super robot classico della
+Toei, che pur non essendo un capolavoro e' un interessantissimo testimonial
+dell'evoluzione del genere. God Sigma e' ambientato in un futuro vicino:
+tutte le serie dal 
+
+La serie di God Sigma e' divisa un due parti
+nettamente separate. Le prime 26 puntate sono allegre.
+Le ultimi 26 sono drammatiche e costituiscono un ritorno alla tradizione
+di Combattler, Vultus, Daimos e Daltanious.
+
+1981
+----
+
+Il 1981 e' l'ultimo grande anno per il super robot. E' un periodo 
+di transizione, e il primo anno in cui si comincia a sentire l'influenza 
+del real robot, che a partire dall'anno successivo diventera'
+dominante; ma nonostante questo continuano ad apparire delle
+buone serie.
+Il 1981 e' l'anno dell'uscita dei film di Gundam (il loro successo
+probabilmente spiega l'uscita di Dougram a fine ottobre):
+il loro successo decreta la fine del super robot, che entrera' in decadenza
+a partire dall'anno successivo.
+
+
+1981
+01.31 Saikyo Robo DAIOJA
+03.04 Hyakuju-Ou GOLION
+07.03 Sengoku Majin GOSHOGUN
+10.02 Rokushin Gattai GOD MARS
+10.06 Galactic Cyclone BURAIGER
+
+La migliore dell'anno (migliore dal punto di vista dell'ortodossia nagaiana)
+e' la prima dell'anno, Golion, che riscuotera' enorme successo negli Stati
+Uniti sotto il nome di Voltron.
+
+
+Da mostro a semplice mecha
+---------------------------------------
+
+Prima di affrontare la nuova era del robotico e' il caso di fare una
+riflessione ulteriore sulla principale caratteristica distintiva del
+robotico nagaiano: il mostro della settimana. Tale caratteristica
+viene mutuata direttamente dai film di Kaiju degli anni cinquanta e
+sessanta, in cui ogni mostro ha un nome individuale. Lo stesso avviene
+nei tokusatsu televisivi che precedono Mazinga Z. Il nome del mostro
+e' un parametro essenziale nel robotico nagaiano, ricco di
+significato.  Consideriamo per esempio i mostri meccanici di Mazinga
+Z: i loro nomi terminano sempre con una codice alphanumerico, quasi a
+dare un'aura di "scientificita'" alle creature. Nagai segue la
+tradizione di Tetsujin 28, che ha un numero attaccato al nome. I nomi
+dei mostri sono diventati in alcuni casi leggendari, come i celebri
+Garuda K7 e Doublas M2, i primi avversari di Mazinga Z che si sono
+visti innumerevoli volte nei molti remake di Mazinga Z, sia animati
+che su carta. Quando i mostri del Dottor Hell sono sostituiti dai
+mostri del Duca Gorgon, molto piu' potenti, il codice alphanumerico
+cambia e le lettere sono sostitute da lettere greche. La cosa viene
+ripresa quasi dieci anni dopo anche da Golion: nella seconda meta'
+della serie i mostri vengono sostituiti da versioni piu' potenti che
+hanno come nome una lettera greca (c'e il mostro Lambda, Gamma, Delta,
+eccetera).  La lettera greca e' piu' esotica e quindi probabilmente
+associata a qualcosa di piu' potente. Mi viene in mente un preconcetto
+degli alchimisti medioevali, secondo cui le lettere greche erano piu'
+potenti di quelle latine, essendo piu' antiche, mentre quelle ebraiche
+erano le piu' potenti di tutte, essendo quelle del linguaggio parlato
+da Adamo all'inizio del mondo: in questa prospettiva non sorprende
+che Evangelion abbia attinto a piene mani dalla Cabala ebraica per
+i nomi dei suoi angeli.
+
+Ma torniamo al mostro della settimana e alla sua evoluzione.  Il
+mostro e' una versione meccanizzata e "scientifica" dei kaiju
+precedenti: ma la spinta verso il passata e' molto forte nel primo
+periodo del super robot. E cosi' i mostri del Duca Gorgon sono molto
+piu' forti, ma anche piu' bestiali e piu' vicini a un kaiju di quelli
+del Dottor Hell; e i mostri di Mikenes che appaiono a partire dal film
+"Mazinga Z contro il Generale Nero" sono addirittura autocoscienti e
+parlano. Cosi' sono i Sette Generali dell'Armata delle Tenebre del
+Grande Mazinga. I mostri di Getter sono dinosauri meccanizzati, e
+quindi piu' vicini al Kaiju eiga. I mostri di Raideen e Jeeg sono
+demoni di roccia, generati dalla magia e non dalla meccanica. Parlando
+in generale tutti i mostri del primo periodo del robotico sono molto
+personalizzati. In Daitarn III i mostri sono addirittura ottenuti da
+persone, che vergono rese giganti e trasformate in giganti, secondo
+la tradizione del tokusatsu; la stessa idea si vede anche in
+Golion. Ma gia' nel 1974 nel Grande Mazinga troviamo persone
+trasformate in mostri giganti. Anche I mostri di Mazinga Z a volte hanno
+una personalita': si ricorda per esempio il caso di Spartan, apparso
+nella puntata XX, mostro in cui in qualche modo sono state impiantate
+le memorie di un gladiatore romano e di un indiano d'America e per
+qualche motivo e' piuttosto indolente e senza voglia di combattere.
+In Mazinga Z troviamo anche dei robot con una coscienza come Minerva X
+e XXX.
+
+Le cose cominciano a cambiare a partire dal 1979. Gundam e' la prima
+serie senza mostro della settimana, ed e' questo uno dei motivi
+principali per cui non e' possibile classificare Gundam come super
+robot, per quanto sia un robot trasformabile con agganciamenti
+e altri stilemi tipici del super robot. In Gundam il mostro della
+settimana e' sostituito da dei mecha spersonalizzati che non hanno
+un nome proprio, solo il nome del modello (si ricordano in particolare
+i famosi Zaku). Invece di duelli epocali che si concludono con la
+distruzione del nemico, in Gundam e le serie real che lo seguiranno
+gli scontri tipicamente si concludono con un nulla di fatto: Gundam
+distrugge qualche mecha nemico, danneggia il robot di Char Asnable
+e viene danneggiato a sua volta, ma i due avversari torneranno ad
+affrontarsi piu' e piu' volte. Non esiste un colpo finale.
+
+In serie come Gordian i mostri 
+meccanici ci sono ma hanno poca importanza: la serie non si basa sui
+combattimenti, ma sui personaggi e su una trama fantascientifica
+piuttosto complicata per i suoi anni. Inoltre l'importanza
+e la spettacolarita' del colpo finale sono molto ridotte.
+
+A partire da 1980 si afferma una tendenza a sostituire il mostro con
+un semplice mecha: penso a serie come God Sigma, in cui ci sono
+dei mostri, ma sono quasi dei mecha e non hanno nessuna personalita'.
+L'Ideon si scontra contro dei mecha veri e propri; Baldios formalmente
+combatte contro dei mostri vecchio stile ma in questa serie i combattimenti
+sono ridotti a pochi secondi e non rivestono assolutamente nessuna
+importanza, meno che in qualunque serie precedente. Nel 1981 gli
+avversari del super robot sono dei mecha con nulla di animalesco:
+penso a serie come God Mars e Goshogun. In Bryger non esiste neppure
+piu' il concetto di mostro.
+Golion e' una serie retrograda per il 1981, piu' in
+stile anni settanta, ma anche Golion nella seconda parte della serie
+cede al fascino del mecha e sostituisce i Beastman con dei robot: il
+beastman ora si connette in simbiosi con il robot, e non si trasforma
+piu' in mostro gigante come nella prima parte della serie.
+Dopo il 1982, nel terzo periodo del robotico, non esiste piu'
+nessuna serie con dei veri mostri nel senso nagaiano del termine.
+Il real robot ha vinto.
+
+1982-1985: la fine del super robot
+----------------------------------------
+
+1982
+----
+
+Il 1982 e' un anno triste per il genere del super robot. E' diventato
+praticamente impossibile produrre serie canoniche: i robot giganti
+appaiono dappertutto, peggio del prezzemolo, ma sono stati naturati,
+sono diventati altro. Appaiono serie come Dairugger XV, che e' una
+space opera mascherata da super robot: non si sa piu' cosa inventare
+e viene immaginato un robot composto da 15 componenti guidato da
+tre team di 5 persone l'uno, per un totale di quindici piloti (15!).
+Baxinger continua la linea di Bryger; Acrobunch.
+
+Il 1982 ha due serie robotiche buone: Xabungle di Yoshiyuke Tomino,
+e il capolavoro Macross, di XXX: ma nessuna delle due ha a che fare con
+il genere del super robot.
+
+1983
+----
+
+Il 1983 vede solo due super robot tradizionali: il pessimo Arbegas
+e il migliore Govarian, su soggetto di Go Nagai, che torna in TV
+dopo una lunga pausa di 7 anni.
+
+La serie migliore dell'anno e' Dunbine di Tomino, ma purtroppo e'
+difficile farla rientrare in un genere: certo presenta caratteristiche
+"unreal" visto che esiste la magia, l'aura: il problema e' che il robot
+protagonista, il Dunbine, non e' affatto magico, l'aura viene dal pilota;
+il robot viene addirittura sostituito a meta' serie dal Billbine, non
+ha quindi nessuna importanza, e' un semplice mezzo di trasporto come
+in un real robot. Devo quindi a malincuore escludere questa serie
+dalla roboguida, cosi' come ho escluso Macross: sono troppo poco robotiche
+per entrare in lista.
+
+1983
+01.21 Mission Outer Space SRUNGLE (?)
+02.05 Aura Battler DUNBINE (M)
+
+04.01 Armored Trooper VOTOMS (R)
+04.05 Galactic Whirl Wind SASURAIGER (M)
+07.03 Cho Jiku Seiki ORGUSS (M)
+10.02 Genesis Climber MOSPEADA (R)
+10.07 Tokuso Kihei DORVACK (R)
+10.21 Round Vernian VIFAM (R)
+
+1984
+----
+
+Nel 1984 ci sono solo due serie assimilabili al super robot: Video
+Senshi Laserion e God Mazinger. Laserion e' arrivato in Italia, ma
+solo i primi 26 episodi sono stati doppiati; i restanti 26 non si
+trovano neppure sottotitolati e sono persi per chi non conosce il
+giapponese. Ancora peggiore e' la situazione per God Mazinger di
+cui a mia conoscenza non si trova neppure un episodio in lingua
+comprensibile.
+
+Nel 1984 escono molte buone serie mecha e real, come L-Gaim,
+
+02.03 Cho Kosoku GALVION (R)
+02.04 Heavy Metal L-GAIM (R)
+04.05 Giant GORG (R)
+04.15 Cho Jiku Kidan SOUTHERN CROSS (R)
+10.05 Panzer World GALIENT (M)
+10.06 Choriki Robo GALATT (M)
+10.07 Sei Jushi BISMARCK (M)
+
+1985
+----
+
+Il 1985 in TV e' l'anno di Z-Gundam e Layzner; e' anche l'anno in cui scoppia
+il boom del mercato OAV con serie come Megazone 23 e  Iczer 1;
+ma sul fronte super robot l'unica serie assimilabile al genere
+e' Dancougar. Una serie discreta, ma che e' stata irrimediabilmente
+afflitta dagli stilemi del real robot:
+
+
+1985
+04.05 Super Mechanimal DANCOUGAR (S)
+
+
+
+07.21 MIGHTY ORBOTS (M)
+10.06 Ninja Senshi TOBIKAGE (S)
